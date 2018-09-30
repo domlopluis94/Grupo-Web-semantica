@@ -2,7 +2,7 @@
 
 # Luis Domínguez López - domlopluis94
 
-# Javier Cuellar Torres - Javinator
+# Javier Cuellar Torres - javinator
 
 # Jose Alberto Buenavida Carmona - mrphoenixio
 
