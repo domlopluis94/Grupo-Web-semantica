@@ -17,8 +17,7 @@ The “README.md” file:
     3.3. Identifies those entities in other datasets that can be linked with entities in the selected datasets: 
 
   4. The "applicationRequirements.html” file:
-  
-   4.1. Includes a description of the application user interface: 
+    4.1. Includes a description of the application user interface: 
  
  
  ##Comments on the self-assessment## (If required)
