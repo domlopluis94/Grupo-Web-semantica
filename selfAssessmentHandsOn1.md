@@ -4,17 +4,20 @@
 
 The “README.md” file:
 
- Includes the names and GitHub users of all the members of the group
-The "csv" directory:
+ 1. Includes the names and GitHub users of all the members of the group : Yes
+ 
+ 2. The "csv" directory Contains at least one CSV file The CSV files belong to one of the selected domains: Yes
 
- Contains at least one CSV file
- The CSV files belong to one of the selected domains
-The "datasetRequirements.html" file:
+ 3. The "datasetRequirements.html" file:
+  
+    3.1. Identifies the licenses of all the selected datasets: Yes
 
- Identifies the licenses of all the selected datasets
- Identifies those entities in the selected datasets that can be linked with entities in other datasets
- Identifies those entities in other datasets that can be linked with entities in the selected datasets
-The "applicationRequirements.html” file:
+    3.2. Identifies those entities in the selected datasets that can be linked with entities in other datasets: Yes
 
- Includes a description of the application user interface
-##Comments on the self-assessment## (If required)
+    3.3. Identifies those entities in other datasets that can be linked with entities in the selected datasets: No
+
+  4. The "applicationRequirements.html” file:
+    4.1. Includes a description of the application user interface: Yes
+ 
+ 
+ ##Comments on the self-assessment## (If required)
