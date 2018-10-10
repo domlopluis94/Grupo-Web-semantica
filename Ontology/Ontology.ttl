@@ -1,44 +1,53 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix ns: <https://www.santacruzdetenerife.es/#>.
+@prefix individual: <https://www.santacruzdetenerife.es/Individual/#>.
+@prefix clases: <https://www.santacruzdetenerife.es/Clases/#>.
+@prefix propiedades: <https://www.santacruzdetenerife.es/Propiedades/#>.
 
-ns:MaquinaPublica a rdfs:Class.
+clases:MaquinaPublica a rdfs:Class.
 
-ns:URL_PDF a rdf:Property;
+propiedades:URL_PDF a rdf:Property;
+	rdfs:domain clases:MaquinaPublica;
 	rdfs:range xsd:string.
 
-ns:FID a rdf:Property;
+propiedades:FID a rdf:Property;
+	rdfs:domain clases:MaquinaPublica;
 	rdfs:range xsd:float.
 
-ns:Fabricante a rdf:Property;
+propiedades:Fabricante a rdf:Property;
+	rdfs:domain clases:MaquinaPublica;
 	rdfs:range xsd:string.
 
-ns:GRAD_X a rdf:Property;
+propiedades:GRAD_X a rdf:Property;
+	rdfs:domain clases:MaquinaPublica;
 	rdfs:range xsd:float.
 
-ns:GRAD_Y a rdf:Property;
+propiedades:GRAD_Y a rdf:Property;
+	rdfs:domain clases:MaquinaPublica;
 	rdfs:range xsd:float.
 
-ns:Situacion a rdf:Property;
+propiedades:Situacion a rdf:Property;
+	rdfs:domain clases:MaquinaPublica;
 	rdfs:range xsd:string.
 
-ns:Modelo a rdf:Property;
+propiedades:Modelo a rdf:Property;
+	rdfs:domain clases:MaquinaPublica;
 	rdfs:range xsd:string.
 
-ns:Brazos a rdfs:Class;
+clases:Brazos a rdfs:Class;
 	rdfs:subClassOf :MaquinaPublica.
 
-ns:Piernas a rdfs:Class;
+clases:Piernas a rdfs:Class;
 	rdfs:subClassOf :MaquinaPublica.
 
-ns:Abdominales a rdfs:Class;
+clases:Abdominales a rdfs:Class;
 	rdfs:subClassOf :MaquinaPublica.
 
-ns:Espalda a rdfs:Class;
+clases:Espalda a rdfs:Class;
 	rdfs:subClassOf :MaquinaPublica.
 
-ns:Cardio a rdfs:Class;
+clases:Cardio a rdfs:Class;
 	rdfs:subClassOf :MaquinaPublica.
 
 
