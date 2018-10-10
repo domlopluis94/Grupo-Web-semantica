@@ -23,7 +23,7 @@ ns:GRAD_Y a rdf:Property;
 ns:Situacion a rdf:Property;
 	rdfs:range xsd:string.
 
-ns:Modelo a rdf:Property.
+ns:Modelo a rdf:Property;
 	rdfs:range xsd:string.
 
 ns:Brazos a rdfs:Class;
