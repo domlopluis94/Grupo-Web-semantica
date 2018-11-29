@@ -57,8 +57,8 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/5">
-	<xsd:float rdf:datatype="xsd:string">5.0</xsd:float>
 	<xsd:string>155F Barras Paralelas</xsd:string>
+	<xsd:float rdf:datatype="xsd:string">5.0</xsd:float>
 	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>Avda. Los Majuelos</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/155F.pdf</xsd:anyURI>
@@ -67,9 +67,9 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/6">
+	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:float rdf:datatype="xsd:string">6.0</xsd:float>
 	<xsd:string>155H El Jinete</xsd:string>
-	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>Avda. Los Majuelos</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf</xsd:anyURI>
 	<xsd:float>-16.3130587886</xsd:float>
@@ -88,8 +88,8 @@
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/8">
 	<xsd:float rdf:datatype="xsd:string">8.0</xsd:float>
-	<xsd:string>155B Los Patines</xsd:string>
 	<xsd:string>TUYO HPC</xsd:string>
+	<xsd:string>155B Los Patines</xsd:string>
 	<xsd:string>Avda. Marítima</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</xsd:anyURI>
 	<xsd:float>-16.2486564062</xsd:float>
@@ -97,8 +97,8 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/9">
-	<xsd:float rdf:datatype="xsd:string">9.0</xsd:float>
 	<xsd:string>154B Esquí de Fondo</xsd:string>
+	<xsd:float rdf:datatype="xsd:string">9.0</xsd:float>
 	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>Avda. Marítima</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</xsd:anyURI>
@@ -117,10 +117,10 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/11">
-	<xsd:float rdf:datatype="xsd:string">11.0</xsd:float>
-	<xsd:string>207T Step &amp; Twist</xsd:string>
-	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>Fernández Navarro</xsd:string>
+	<xsd:string>207T Step &amp; Twist</xsd:string>
+	<xsd:float rdf:datatype="xsd:string">11.0</xsd:float>
+	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf</xsd:anyURI>
 	<xsd:float>-16.253848648</xsd:float>
 	<xsd:float>28.4618933267</xsd:float>
@@ -147,9 +147,9 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/14">
+	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:float rdf:datatype="xsd:string">14.0</xsd:float>
 	<xsd:string>202T Bicicleta Estática</xsd:string>
-	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>P. La Granja</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</xsd:anyURI>
 	<xsd:float>-16.2663275766</xsd:float>
@@ -157,20 +157,20 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/15">
-	<xsd:float rdf:datatype="xsd:string">15.0</xsd:float>
-	<xsd:string>154B Esquí de Fondo</xsd:string>
 	<xsd:string>TUYO HPC</xsd:string>
-	<xsd:string>P. La Granja</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</xsd:anyURI>
+	<xsd:string>154B Esquí de Fondo</xsd:string>
+	<xsd:string>P. La Granja</xsd:string>
+	<xsd:float rdf:datatype="xsd:string">15.0</xsd:float>
 	<xsd:float>-16.2662349969</xsd:float>
 	<xsd:float>28.4622640267</xsd:float>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/16">
-	<xsd:float rdf:datatype="xsd:string">16.0</xsd:float>
-	<xsd:string>154D Sube y Baja</xsd:string>
 	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>P. La Granja</xsd:string>
+	<xsd:float rdf:datatype="xsd:string">16.0</xsd:float>
+	<xsd:string>154D Sube y Baja</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/154D.pdf</xsd:anyURI>
 	<xsd:float>-16.2663179106</xsd:float>
 	<xsd:float>28.4621819103</xsd:float>
@@ -197,32 +197,32 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/19">
+	<xsd:string>Pza. La Victoria</xsd:string>
+	<xsd:float>-16.2598202239</xsd:float>
+	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf</xsd:anyURI>
 	<xsd:float rdf:datatype="xsd:string">19.0</xsd:float>
 	<xsd:string>154G Rueda Grande</xsd:string>
 	<xsd:string>TUYO HPC</xsd:string>
-	<xsd:string>Pza. La Victoria</xsd:string>
-	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf</xsd:anyURI>
-	<xsd:float>-16.2598202239</xsd:float>
 	<xsd:float>28.4589887091</xsd:float>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/20">
-	<xsd:string>TUYO HPC</xsd:string>
-	<xsd:string>Pza. La Victoria</xsd:string>
 	<xsd:float rdf:datatype="xsd:string">20.0</xsd:float>
 	<xsd:string>155B Los Patines</xsd:string>
+	<xsd:string>TUYO HPC</xsd:string>
+	<xsd:string>Pza. La Victoria</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</xsd:anyURI>
 	<xsd:float>-16.2598105497</xsd:float>
 	<xsd:float>28.4589589379</xsd:float>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/21">
-	<xsd:float>-16.2730020017</xsd:float>
 	<xsd:float rdf:datatype="xsd:string">21.0</xsd:float>
 	<xsd:string>202T Bicicleta Estática</xsd:string>
 	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>Pza. García Escámez</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</xsd:anyURI>
+	<xsd:float>-16.2730020017</xsd:float>
 	<xsd:float>28.4552057519</xsd:float>
 </rdf:Description>
 
@@ -277,18 +277,18 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/27">
-	<xsd:float rdf:datatype="xsd:string">27.0</xsd:float>
-	<xsd:string>AMM-012 Movimiento Brazo</xsd:string>
-	<xsd:string>Kido</xsd:string>
 	<xsd:string>Pza. San José</xsd:string>
+	<xsd:string>AMM-012 Movimiento Brazo</xsd:string>
+	<xsd:float rdf:datatype="xsd:string">27.0</xsd:float>
+	<xsd:string>Kido</xsd:string>
 	<xsd:anyURI> </xsd:anyURI>
 	<xsd:float>-16.3336338785</xsd:float>
 	<xsd:float>28.4250658181</xsd:float>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/28">
-	<xsd:float rdf:datatype="xsd:string">28.0</xsd:float>
 	<xsd:string>AMM-011 Escalera Dedos</xsd:string>
+	<xsd:float rdf:datatype="xsd:string">28.0</xsd:float>
 	<xsd:string>Kido</xsd:string>
 	<xsd:string>Pza. María Auxiliadora</xsd:string>
 	<xsd:anyURI> </xsd:anyURI>
@@ -327,20 +327,20 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/32">
-	<xsd:float rdf:datatype="xsd:string">32.0</xsd:float>
 	<xsd:string>154B Esquí de Fondo</xsd:string>
+	<xsd:float rdf:datatype="xsd:string">32.0</xsd:float>
 	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>Avda. Príncipes de España</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</xsd:anyURI>
-	<xsd:float>28.4515188587</xsd:float>
 	<xsd:float>-16.2858638595</xsd:float>
+	<xsd:float>28.4515188587</xsd:float>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/33">
-	<xsd:float rdf:datatype="xsd:string">33.0</xsd:float>
 	<xsd:string>AMM-015 Mov. Ondular</xsd:string>
-	<xsd:string>Kido</xsd:string>
 	<xsd:string>Avda. Príncipes de España</xsd:string>
+	<xsd:string>Kido</xsd:string>
+	<xsd:float rdf:datatype="xsd:string">33.0</xsd:float>
 	<xsd:anyURI> </xsd:anyURI>
 	<xsd:float>-16.2847797074</xsd:float>
 	<xsd:float>28.4538148174</xsd:float>
@@ -357,8 +357,8 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/35">
-	<xsd:float rdf:datatype="xsd:string">35.0</xsd:float>
 	<xsd:string>AMM-013 Mov. Circ. Brazo</xsd:string>
+	<xsd:float rdf:datatype="xsd:string">35.0</xsd:float>
 	<xsd:string>Kido</xsd:string>
 	<xsd:string>Avda. Príncipes de España</xsd:string>
 	<xsd:anyURI> </xsd:anyURI>
@@ -367,19 +367,19 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/36">
-	<xsd:string>154B Esquí de Fondo</xsd:string>
+	<xsd:string>P. Santa Catalina</xsd:string>
 	<xsd:float rdf:datatype="xsd:string">36.0</xsd:float>
 	<xsd:string>TUYO HPC</xsd:string>
-	<xsd:string>P. Santa Catalina</xsd:string>
+	<xsd:string>154B Esquí de Fondo</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</xsd:anyURI>
 	<xsd:float>-16.3192781297</xsd:float>
 	<xsd:float>28.4313160788</xsd:float>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/37">
-	<xsd:string>TUYO HPC</xsd:string>
-	<xsd:float rdf:datatype="xsd:string">37.0</xsd:float>
 	<xsd:string>155I El Remo</xsd:string>
+	<xsd:float rdf:datatype="xsd:string">37.0</xsd:float>
+	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>P. Santa Catalina</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</xsd:anyURI>
 	<xsd:float>-16.3192479346</xsd:float>
@@ -397,19 +397,19 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/39">
+	<xsd:float rdf:datatype="xsd:string">39.0</xsd:float>
 	<xsd:string>154C Slalom</xsd:string>
 	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>P. Santa Catalina</xsd:string>
-	<xsd:float rdf:datatype="xsd:string">39.0</xsd:float>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/154C.pdf</xsd:anyURI>
 	<xsd:float>-16.3193182228</xsd:float>
 	<xsd:float>28.4313586138</xsd:float>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/40">
-	<xsd:float rdf:datatype="xsd:string">40.0</xsd:float>
 	<xsd:string>155F Barras Paralelas</xsd:string>
 	<xsd:string>TUYO HPC</xsd:string>
+	<xsd:float rdf:datatype="xsd:string">40.0</xsd:float>
 	<xsd:string>P. Santa Catalina</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/155F.pdf</xsd:anyURI>
 	<xsd:float>-16.3192897865</xsd:float>
@@ -437,8 +437,8 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/43">
-	<xsd:float rdf:datatype="xsd:string">43.0</xsd:float>
 	<xsd:string>AMM-004 Varios</xsd:string>
+	<xsd:float rdf:datatype="xsd:string">43.0</xsd:float>
 	<xsd:string>Kido</xsd:string>
 	<xsd:string>Avda. Pedro Schwartz</xsd:string>
 	<xsd:anyURI> </xsd:anyURI>
@@ -467,8 +467,8 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/46">
-	<xsd:string>155B Los Patines</xsd:string>
 	<xsd:float rdf:datatype="xsd:string">46.0</xsd:float>
+	<xsd:string>155B Los Patines</xsd:string>
 	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>Pza. Los Sabandeños</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf</xsd:anyURI>
@@ -487,9 +487,9 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/48">
-	<xsd:string>TUYO HPC</xsd:string>
-	<xsd:float rdf:datatype="xsd:string">48.0</xsd:float>
 	<xsd:string>207T Step &amp; Twist</xsd:string>
+	<xsd:float rdf:datatype="xsd:string">48.0</xsd:float>
+	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>Pza. Los Sabandeños</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf</xsd:anyURI>
 	<xsd:float>-16.2625531553</xsd:float>
@@ -507,11 +507,11 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/50">
-	<xsd:float rdf:datatype="xsd:string">50.0</xsd:float>
 	<xsd:string>155I El Remo</xsd:string>
-	<xsd:string>TUYO HPC</xsd:string>
-	<xsd:string>Avda. Francisco La Roche</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</xsd:anyURI>
+	<xsd:string>TUYO HPC</xsd:string>
+	<xsd:float rdf:datatype="xsd:string">50.0</xsd:float>
+	<xsd:string>Avda. Francisco La Roche</xsd:string>
 	<xsd:float>-16.2448182135</xsd:float>
 	<xsd:float>28.4772523625</xsd:float>
 </rdf:Description>
@@ -527,9 +527,9 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/52">
-	<xsd:float rdf:datatype="xsd:string">52.0</xsd:float>
-	<xsd:string>202T Bicicleta Estática</xsd:string>
 	<xsd:string>TUYO HPC</xsd:string>
+	<xsd:string>202T Bicicleta Estática</xsd:string>
+	<xsd:float rdf:datatype="xsd:string">52.0</xsd:float>
 	<xsd:string>Avda. Francisco La Roche</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</xsd:anyURI>
 	<xsd:float>-16.2442841339</xsd:float>
@@ -537,19 +537,19 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/53">
-	<xsd:float>28.4779033713</xsd:float>
 	<xsd:float rdf:datatype="xsd:string">53.0</xsd:float>
 	<xsd:string>207T Step &amp; Twist</xsd:string>
 	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>Avda. Francisco La Roche</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf</xsd:anyURI>
 	<xsd:float>-16.2439620005</xsd:float>
+	<xsd:float>28.4779033713</xsd:float>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/54">
 	<xsd:float rdf:datatype="xsd:string">54.0</xsd:float>
-	<xsd:string>155C Giro de Cintura</xsd:string>
 	<xsd:string>TUYO HPC</xsd:string>
+	<xsd:string>155C Giro de Cintura</xsd:string>
 	<xsd:string>Avda. Francisco La Roche</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/155C.pdf</xsd:anyURI>
 	<xsd:float>-16.2438031517</xsd:float>
@@ -577,11 +577,11 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/57">
-	<xsd:float rdf:datatype="xsd:string">57.0</xsd:float>
 	<xsd:string>202T Bicicleta Estática</xsd:string>
 	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>Río Guadalete</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</xsd:anyURI>
+	<xsd:float rdf:datatype="xsd:string">57.0</xsd:float>
 	<xsd:float>-16.2765109501</xsd:float>
 	<xsd:float>28.4736891821</xsd:float>
 </rdf:Description>
@@ -647,11 +647,11 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/64">
-	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf</xsd:anyURI>
 	<xsd:float rdf:datatype="xsd:string">64.0</xsd:float>
 	<xsd:string>PF9 Oblic</xsd:string>
 	<xsd:string>Novatilu</xsd:string>
 	<xsd:string>Río Orinoco</xsd:string>
+	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf</xsd:anyURI>
 	<xsd:float>-16.2153461036</xsd:float>
 	<xsd:float>28.4966291093</xsd:float>
 </rdf:Description>
@@ -669,8 +669,8 @@
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/66">
 	<xsd:float rdf:datatype="xsd:string">66.0</xsd:float>
 	<xsd:string>155I El Remo</xsd:string>
-	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>Rambla Añaza</xsd:string>
+	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</xsd:anyURI>
 	<xsd:float>-16.2990658924</xsd:float>
 	<xsd:float>28.4250792035</xsd:float>
@@ -697,13 +697,13 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/69">
+	<xsd:float>28.4652883575</xsd:float>
 	<xsd:float rdf:datatype="xsd:string">69.0</xsd:float>
 	<xsd:string>159J Espaldera</xsd:string>
 	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>P. VIera y Clavijo</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/159J.pdf</xsd:anyURI>
 	<xsd:float>-16.2619497124</xsd:float>
-	<xsd:float>28.4652883575</xsd:float>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/70">
@@ -777,9 +777,9 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/77">
+	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:float rdf:datatype="xsd:string">77.0</xsd:float>
 	<xsd:string>202T Bicicleta Estática</xsd:string>
-	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>Pza. Los Dragos</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</xsd:anyURI>
 	<xsd:float>-16.1975608566</xsd:float>
@@ -797,11 +797,11 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/79">
-	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf</xsd:anyURI>
 	<xsd:float rdf:datatype="xsd:string">79.0</xsd:float>
 	<xsd:string>155E Silla Pectorales</xsd:string>
 	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>Chafira</xsd:string>
+	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf</xsd:anyURI>
 	<xsd:float>-16.2895049329</xsd:float>
 	<xsd:float>28.4460897446</xsd:float>
 </rdf:Description>
@@ -827,9 +827,9 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/82">
-	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:float rdf:datatype="xsd:string">82.0</xsd:float>
 	<xsd:string>155I El Remo</xsd:string>
+	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>Pza. Nuestra Sra. de las Nieves</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</xsd:anyURI>
 	<xsd:float>-16.2169586253</xsd:float>
@@ -837,10 +837,10 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/83">
+	<xsd:float rdf:datatype="xsd:string">83.0</xsd:float>
 	<xsd:string>155I El Remo</xsd:string>
 	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>Zafiro</xsd:string>
-	<xsd:float rdf:datatype="xsd:string">83.0</xsd:float>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</xsd:anyURI>
 	<xsd:float>-16.2883117382</xsd:float>
 	<xsd:float>28.4540619418</xsd:float>
@@ -887,9 +887,9 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/88">
-	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:float rdf:datatype="xsd:string">88.0</xsd:float>
 	<xsd:string>155I El Remo</xsd:string>
+	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>Colegio Afur</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</xsd:anyURI>
 	<xsd:float>-16.249405824</xsd:float>
@@ -897,12 +897,12 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/89">
+	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</xsd:anyURI>
+	<xsd:float>-16.2493983485</xsd:float>
 	<xsd:float rdf:datatype="xsd:string">89.0</xsd:float>
 	<xsd:string>202T Bicicleta Estática</xsd:string>
 	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>Colegio Afur</xsd:string>
-	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</xsd:anyURI>
-	<xsd:float>-16.2493983485</xsd:float>
 	<xsd:float>28.5550431889</xsd:float>
 </rdf:Description>
 
@@ -937,8 +937,8 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/93">
-	<xsd:float rdf:datatype="xsd:string">93.0</xsd:float>
 	<xsd:string>202T Bicicleta Estática</xsd:string>
+	<xsd:float rdf:datatype="xsd:string">93.0</xsd:float>
 	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>Izquierdo Azcárate</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf</xsd:anyURI>
@@ -967,13 +967,13 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/96">
+	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf</xsd:anyURI>
+	<xsd:float>-16.2597394282</xsd:float>
+	<xsd:float>28.4662081507</xsd:float>
 	<xsd:float rdf:datatype="xsd:string">96.0</xsd:float>
 	<xsd:string>155H El Jinete</xsd:string>
 	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>Pza. Duggi</xsd:string>
-	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf</xsd:anyURI>
-	<xsd:float>-16.2597394282</xsd:float>
-	<xsd:float>28.4662081507</xsd:float>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/97">
@@ -987,8 +987,8 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/98">
-	<xsd:string>154B Esquí de Fondo</xsd:string>
 	<xsd:float rdf:datatype="xsd:string">98.0</xsd:float>
+	<xsd:string>154B Esquí de Fondo</xsd:string>
 	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>Pza. Duggi</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</xsd:anyURI>
@@ -1127,8 +1127,8 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/112">
-	<xsd:float rdf:datatype="xsd:string">112.0</xsd:float>
 	<xsd:string>154B Esquí de Fondo</xsd:string>
+	<xsd:float rdf:datatype="xsd:string">112.0</xsd:float>
 	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>Avda. Marítima</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf</xsd:anyURI>
@@ -1427,11 +1427,11 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/142">
+	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf</xsd:anyURI>
 	<xsd:float rdf:datatype="xsd:string">142.0</xsd:float>
 	<xsd:string>PF6 Step</xsd:string>
 	<xsd:string>Novatilu</xsd:string>
 	<xsd:string>Pza. Taborno</xsd:string>
-	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf</xsd:anyURI>
 	<xsd:float>-16.2645211894</xsd:float>
 	<xsd:float>28.5571301851</xsd:float>
 </rdf:Description>
@@ -1557,13 +1557,13 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/155">
+	<xsd:float>28.4554643111</xsd:float>
 	<xsd:float rdf:datatype="xsd:string">155.0</xsd:float>
 	<xsd:string>JSA018 Bicicleta</xsd:string>
 	<xsd:string>Fundiciones Benito</xsd:string>
 	<xsd:string>Panamá</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf</xsd:anyURI>
 	<xsd:float>-16.2664101962</xsd:float>
-	<xsd:float>28.4554643111</xsd:float>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/156">
@@ -1597,11 +1597,11 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/159">
+	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</xsd:anyURI>
 	<xsd:float rdf:datatype="xsd:string">159.0</xsd:float>
 	<xsd:string>155I El Remo</xsd:string>
 	<xsd:string>TUYO HPC</xsd:string>
 	<xsd:string>Ctra. Los Campitos</xsd:string>
-	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf</xsd:anyURI>
 	<xsd:float>-16.2633864337</xsd:float>
 	<xsd:float>28.4862540561</xsd:float>
 </rdf:Description>
@@ -1787,9 +1787,9 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/178">
+	<xsd:string>Novatilu</xsd:string>
 	<xsd:float rdf:datatype="xsd:string">178.0</xsd:float>
 	<xsd:string>PF6 Step</xsd:string>
-	<xsd:string>Novatilu</xsd:string>
 	<xsd:string>Pza. Manuel Castañeda</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf</xsd:anyURI>
 	<xsd:float>-16.2655828101</xsd:float>
@@ -2017,12 +2017,12 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/201">
+	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf</xsd:anyURI>
+	<xsd:float>-16.2776529312</xsd:float>
 	<xsd:float rdf:datatype="xsd:string">201.0</xsd:float>
 	<xsd:string>JSA018 Bicicleta</xsd:string>
 	<xsd:string>Fundiciones Benito</xsd:string>
 	<xsd:string>Pza. Concha Castro</xsd:string>
-	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf</xsd:anyURI>
-	<xsd:float>-16.2776529312</xsd:float>
 	<xsd:float>28.4738839328</xsd:float>
 </rdf:Description>
 
@@ -2047,13 +2047,13 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/204">
+	<xsd:float>28.4738699719</xsd:float>
 	<xsd:float rdf:datatype="xsd:string">204.0</xsd:float>
 	<xsd:string>JSA009 Timón</xsd:string>
 	<xsd:string>Fundiciones Benito</xsd:string>
 	<xsd:string>Pza. Concha Castro</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009.pdf</xsd:anyURI>
 	<xsd:float>-16.2776243447</xsd:float>
-	<xsd:float>28.4738699719</xsd:float>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/205">
@@ -2067,13 +2067,13 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/206">
+	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf</xsd:anyURI>
+	<xsd:float>-16.2667711537</xsd:float>
+	<xsd:float>28.4705233297</xsd:float>
 	<xsd:float rdf:datatype="xsd:string">206.0</xsd:float>
 	<xsd:string>JCIR07 Pulse</xsd:string>
 	<xsd:string>Fundiciones Benito</xsd:string>
 	<xsd:string>Pza. Francisco Hernández Barroso</xsd:string>
-	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf</xsd:anyURI>
-	<xsd:float>-16.2667711537</xsd:float>
-	<xsd:float>28.4705233297</xsd:float>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/207">
@@ -2137,11 +2137,11 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/213">
-	<xsd:float rdf:datatype="xsd:string">213.0</xsd:float>
 	<xsd:string>JSA009 Timón</xsd:string>
 	<xsd:string>Fundiciones Benito</xsd:string>
 	<xsd:string>Avda. Reyes Católicos</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009.pdf</xsd:anyURI>
+	<xsd:float rdf:datatype="xsd:string">213.0</xsd:float>
 	<xsd:float>-16.2633660508</xsd:float>
 	<xsd:float>28.4619941786</xsd:float>
 </rdf:Description>
@@ -2177,9 +2177,9 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/217">
-	<xsd:float rdf:datatype="xsd:string">217.0</xsd:float>
 	<xsd:string>JSA006 Climber</xsd:string>
 	<xsd:string>Fundiciones Benito</xsd:string>
+	<xsd:float rdf:datatype="xsd:string">217.0</xsd:float>
 	<xsd:string>Ctra. El Bailadero</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf</xsd:anyURI>
 	<xsd:float>-16.2336350089</xsd:float>
@@ -2197,9 +2197,9 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://www.santacruzdetenerife.es/Clases/219">
-	<xsd:float rdf:datatype="xsd:string">219.0</xsd:float>
 	<xsd:string>JSA006 Climber</xsd:string>
 	<xsd:string>Fundiciones Benito</xsd:string>
+	<xsd:float rdf:datatype="xsd:string">219.0</xsd:float>
 	<xsd:string>San Antonio (Taganana)</xsd:string>
 	<xsd:anyURI>https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf</xsd:anyURI>
 	<xsd:float>-16.2182276167</xsd:float>
