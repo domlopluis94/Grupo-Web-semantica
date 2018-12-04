@@ -22,17 +22,17 @@ clases:MaquinaPublica a rdfs:Class.
 #################################################################
 
 ## https://www.santacruzdetenerife.es/Propiedades/FID
-propiedades:hasFID a rdf:Property;
+propiedades:HasFID a rdf:Property;
 	rdfs:domain clases:MaquinaPublica;
 	rdfs:range xsd:float.
 
 ## https://www.santacruzdetenerife.es/Propiedades/URL_PDF
-propiedades:hasURL_PDF a rdf:Property;
+propiedades:HasEnlace a rdf:Property;
 	rdfs:domain clases:MaquinaPublica;
 	rdfs:range xsd:anyURI.
 
 ## https://www.santacruzdetenerife.es/Propiedades/Fabricante
-propiedades:hasfabricante a rdf:Property;
+propiedades:HasFabricante a rdf:Property;
 	rdfs:domain clases:MaquinaPublica;
 	rdfs:range xsd:string.
 ##antiguo
