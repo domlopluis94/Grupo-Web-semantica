@@ -15,7 +15,7 @@ public class FuncionesAndroid
 {
 
 	/**
-	 * ArrayList con el nombre de las maquinas sin repetir nombres 
+	 * ArrayList con el nombre de las maquinas (modelo) sin repetir nombres 
 	 * @return
 	 */
 	public ArrayList<String> listademaquinas (){
@@ -26,18 +26,26 @@ public class FuncionesAndroid
 	
 	
 	/**
-	 * Le pasamos el Nombre de la maquina y nos retorna todas las latitudes y longitudes de las maquinas con ese nombre 
+	 * Le pasamos el Nombre de la maquina y nos retorna todas las latitudes y longitudes de las maquinas con ese modelo  
 	 * @param Nmaquina
-	 * @return
+	 * @return retorna array de int , lat , long , lat, long
 	 */
 	public int [] cordenadasMaquinas (String Nmaquina){
 		int [] coordenadas = null;
 		return coordenadas;
 	}
-	
+	/**
+	 * nos retorna todas las latitudes y longitudes de las maquinas   
+	 * 
+	 * @return retorna array de int , lat , long , lat, long
+	 */
+	public int [] cordenadasTodasLasMaquinas (){
+		int [] coordenadas = null;
+		return coordenadas;
+	}
 	
 	/**
-	 * 
+	 * Le paso el nombre de la maquina y me da su URI
 	 * @param Nmaquina
 	 * @return
 	 */
