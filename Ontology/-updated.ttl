@@ -24,7 +24,7 @@ clases:MaquinaPublica a rdfs:Class.
 ## https://www.santacruzdetenerife.es/Propiedades/FID
 propiedades:HasFID a rdf:Property;
 	rdfs:domain clases:MaquinaPublica;
-	rdfs:range xsd:float.
+	rdfs:range xsd:int.
 
 ## https://www.santacruzdetenerife.es/Propiedades/URL_PDF
 propiedades:HasEnlace a rdf:Property;
