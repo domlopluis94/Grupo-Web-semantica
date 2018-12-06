@@ -5,6 +5,8 @@ import android.Manifest;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.location.Location;
 import android.location.LocationProvider;
 import android.support.annotation.NonNull;
@@ -18,6 +20,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -32,12 +35,12 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
+import com.hp.hpl.jena.ontology.OntModel;
 
 import java.security.Permission;
 import java.util.ArrayList;
-
-
 
 
 public class MainActivity extends AppCompatActivity implements OnMapReadyCallback {
@@ -57,6 +60,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     //oncreate
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ball = findViewById(R.id.button);
@@ -85,12 +89,17 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         spin = findViewById(R.id.spinner);
         spin.setAdapter(ad);
 
-        ///mapa
-        if(isServiceOk()){
-            getlocationPermision();
-            initMap();
-        }
+        /**
+         *
+          */
 
+
+        ///mapa
+        if (isServiceOk()) {
+            mFusedlocationclient = LocationServices.getFusedLocationProviderClient(this);
+            getlocationPermision();
+
+        }
 
 
     }
@@ -103,14 +112,17 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         if (ContextCompat.checkSelfPermission(this.getApplicationContext(), FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
             if (ContextCompat.checkSelfPermission(this.getApplicationContext(), COURSE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
                 mlocationPermisiongrant = true;
+                initMap();
             } else {
                 ActivityCompat.requestPermissions(this, permision, LOCATION_PERMISION_REQUEST_CODE);
+                //initMap();
             }
-        }else{
-            ActivityCompat.requestPermissions(this,permision,LOCATION_PERMISION_REQUEST_CODE);
+        } else {
+            ActivityCompat.requestPermissions(this, permision, LOCATION_PERMISION_REQUEST_CODE);
+            //initMap();
         }
     }
-
+/**
     // control O funcion para regular permisos
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
@@ -131,7 +143,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             }
         }
     }
-
+**/
     // comp de los servicios de google
     public Boolean isServiceOk() {
         Log.d(TAG, "is:serivceOK: Checking version");
@@ -155,28 +167,57 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         mapFr.getMapAsync(MainActivity.this);
     }
 
-    private void getDeviceLocation(){
+    //
+    private void getDeviceLocation() {
         mFusedlocationclient = LocationServices.getFusedLocationProviderClient(MainActivity.this);
         try {
-            if(mlocationPermisiongrant){
+            if (mlocationPermisiongrant) {
                 Task location = mFusedlocationclient.getLastLocation();
                 location.addOnCompleteListener(new OnCompleteListener() {
                     @Override
                     public void onComplete(@NonNull Task task) {
-                        if(task.isSuccessful()){
+                        if (task.isSuccessful() && task.getResult() != null) {
                             Location currentLocation = (Location) task.getResult();
-                            moveCamara(new LatLng(currentLocation.getLatitude(),currentLocation.getLongitude()),15f);
-                        }else{
-                            Toast.makeText(MainActivity.this,"imposible obtener posicion actual", Toast.LENGTH_SHORT).show();
+                            moveCamara(new LatLng(currentLocation.getLatitude(), currentLocation.getLongitude()), 15f);
+                        } else {
+                            Toast.makeText(MainActivity.this, "imposible obtener posicion actual", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
             }
 
-        }catch( SecurityException e ){
-            Toast.makeText(MainActivity.this,"imposible obtener posicion actual", Toast.LENGTH_SHORT).show();
+        } catch (SecurityException e) {
+            Toast.makeText(MainActivity.this, "imposible obtener posicion actual", Toast.LENGTH_SHORT).show();
         }
 
+    }
+
+
+
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        if (requestCode ==  LOCATION_PERMISION_REQUEST_CODE ) {
+            if (permissions.length == 1 &&
+                    permissions[0] == Manifest.permission.ACCESS_FINE_LOCATION &&
+                    grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                    // TODO: Consider calling
+                    //    ActivityCompat#requestPermissions
+                    // here to request the missing permissions, and then overriding
+                    //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                    //                                          int[] grantResults)
+                    // to handle the case where the user grants the permission. See the documentation
+                    // for ActivityCompat#requestPermissions for more details.
+                    return;
+                }
+                mlocationPermisiongrant = true;
+                mapita.setMyLocationEnabled(true);
+                initMap();
+            } else {
+                // Permission was denied. Display an error message.
+            }
+        }
     }
 
     private void moveCamara(LatLng lat,float zoom){
@@ -187,17 +228,19 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     public void onMapReady(GoogleMap googleMap) {
         mapita = googleMap;
         Toast.makeText(MainActivity.this, " pre posconseguida", Toast.LENGTH_SHORT).show();
-        mlocationPermisiongrant=true;
+        //mlocationPermisiongrant=true;
         // aqui no entra porque no pilla los permisos bien
         if (mlocationPermisiongrant) {
             getDeviceLocation();
             Toast.makeText(MainActivity.this, "posconseguida", Toast.LENGTH_SHORT).show();
             mapita.getUiSettings().setMyLocationButtonEnabled(true);
+
             if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(MainActivity.this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
                 // TODO: Consider calling
                 return;
             }
             mapita.setMyLocationEnabled(true);
+
             // añadir todas las coordenadas
             double [] coordenadas = {40.454099, -3.778916};
             anadirMarcadores(coordenadas);
@@ -218,7 +261,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     public void borrarMarcadores(){
         mapita.clear();
     }
-
 
     // Funciones de Jena
 
