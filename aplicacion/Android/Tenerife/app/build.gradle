@@ -11,17 +11,27 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
+        debug {
+            debuggable true
+        }
         TenerifeMaquinas {
         }
     }
     packagingOptions {
-        exclude 'META-INF/DEPENDENCIES'
         exclude 'META-INF/LICENSE'
-        exclude 'META-INF/LICENSE.txt'
-        exclude 'META-INF/license.txt'
         exclude 'META-INF/NOTICE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license/'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/services/javax.xml.stream.XMLEventFactory'
         exclude 'META-INF/NOTICE.txt'
         exclude 'META-INF/notice.txt'
+        exclude 'license/README.sax.txt'
+        exclude 'license/LICENSE.sax.txt'
+        exclude 'license/README.dom.txt'
+        exclude 'license/LICENSE.dom-documentation.txt'
+        exclude 'license/LICENSE.dom-software.txt'
     }
     productFlavors {
     }
@@ -39,7 +49,4 @@ dependencies {
     implementation 'com.google.android.gms:play-services-maps:16.0.0'
     //location
     implementation 'com.google.android.gms:play-services-location:16.0.0'
-    //jena
-    implementation 'org.apache.jena:jena:3.9.0'
-    implementation 'com.hp.hpl.jena:jena:2.6.4'
 }

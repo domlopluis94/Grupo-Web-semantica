@@ -19,7 +19,7 @@
         android:text="Maquinas"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="20sp"
         android:textStyle="bold"
         android:typeface="serif"
@@ -37,12 +37,12 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:fontFamily="@font/orbitron_black"
-        android:background="@android:color/transparent"
+        android:background="@drawable/gradient_spin"
         android:popupBackground="@drawable/gradient_spin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:popupBackground="@android:color/transparent" />
+        tools:popupBackground="@drawable/gradient_back" />
 
     <Button
         android:id="@+id/button"
@@ -54,6 +54,8 @@
         android:background="@drawable/gradient_spin"
         android:fontFamily="@font/orbitron_black"
         android:text="INFO"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/mapView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner"
@@ -69,6 +71,8 @@
         android:background="@drawable/gradient_spin"
         android:fontFamily="@font/orbitron_black"
         android:text="ALL"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/mapView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner" />

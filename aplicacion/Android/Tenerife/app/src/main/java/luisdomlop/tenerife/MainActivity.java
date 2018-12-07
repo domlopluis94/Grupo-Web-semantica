@@ -4,11 +4,14 @@ import android.*;
 import android.Manifest;
 import android.app.Dialog;
 import android.content.Context;
+import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.location.Location;
 import android.location.LocationProvider;
+import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
@@ -38,9 +41,22 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.hp.hpl.jena.ontology.OntModel;
+import com.hp.hpl.jena.rdf.model.Model;
+import com.hp.hpl.jena.rdf.model.ModelFactory;
+import com.hp.hpl.jena.rdf.model.NodeIterator;
+import com.hp.hpl.jena.rdf.model.Property;
+import com.hp.hpl.jena.rdf.model.RDFNode;
+import com.hp.hpl.jena.rdf.model.ResIterator;
+import com.hp.hpl.jena.rdf.model.Resource;
+import com.hp.hpl.jena.rdf.model.impl.PropertyImpl;
+import com.hp.hpl.jena.util.FileManager;
 
+import java.io.FileInputStream;
+import java.io.InputStream;
 import java.security.Permission;
 import java.util.ArrayList;
+
+import static luisdomlop.tenerife.R.raw.bio_saludables_final;
 
 
 public class MainActivity extends AppCompatActivity implements OnMapReadyCallback {
@@ -56,6 +72,9 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     private static final int LOCATION_PERMISION_REQUEST_CODE = 1234;
     private Boolean mlocationPermisiongrant = false;
     private FusedLocationProviderClient mFusedlocationclient;
+    private static Model modelo;
+
+    String name;
 
     //oncreate
     @Override
@@ -63,38 +82,66 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ball = findViewById(R.id.button);
+        //ajusta la orientacion de la pantall
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
-        ball.setOnClickListener(new View.OnClickListener() {
+        //conexion();
+        conexion();
+        //spin
+        ArrayList<String> myList = listademaquinas();
+
+        ArrayAdapter<String> ad = new ArrayAdapter<String>(this, R.layout.spinner_item_spin, myList);  // pass List to ArrayAdapter
+        spin = findViewById(R.id.spinner);
+        spin.setAdapter(ad);
+        // hacer llama al style del spinner despues de añadir los datos
+
+        //en el on selected poner funcion de añadir marcadores
+        spin.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
-            public void onClick(View view) {
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 borrarMarcadores();
+                //añadir los marcadores
+                name = (String) adapterView.getItemAtPosition(adapterView.getSelectedItemPosition());
+                // llamada a la funcion que guarda las coordenadas
+                borrarMarcadores();
+                ArrayList<Double> coordenadas = coordenadasMaquinas(name);
+                anadirMarcadores(coordenadas);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
             }
         });
 
+        /// Boton de info
+        ball = findViewById(R.id.button);
+        //info
+        ball.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                //funcion que llama a la Uri de la maquina
+                ArrayList uriL = UriMaquina(name);
+                String uri =(String) uriL.get(0);
+                //llamada con el browser
+                Intent viewIntent = new Intent("android.intent.action.VIEW", Uri.parse(uri));
+                startActivity(viewIntent);
+            }
+        });
+
+        //Boton de todos
         sele = findViewById(R.id.button2);
         sele.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                borrarMarcadores();
+                ArrayList<Double> coordenadas = coordenadasTodasLasMaquinas();
+                anadirMarcadores(coordenadas);
             }
         });
 
-        ArrayList<String> myList = new ArrayList<String>();
-        myList.add("ONE");       // add items to List
-        myList.add("TWO");
-        myList.add("THREE");
-        myList.add("FOUR");
-        ArrayAdapter<String> ad = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, myList);  // pass List to ArrayAdapter
-        spin = findViewById(R.id.spinner);
-        spin.setAdapter(ad);
-
-        /**
-         *
-          */
-
-
-        ///mapa
+        ///mapa cargar el mapa
         if (isServiceOk()) {
             mFusedlocationclient = LocationServices.getFusedLocationProviderClient(this);
             getlocationPermision();
@@ -122,28 +169,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             //initMap();
         }
     }
-/**
-    // control O funcion para regular permisos
-    @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        mlocationPermisiongrant = false;
-        switch (requestCode) {
-            case LOCATION_PERMISION_REQUEST_CODE: {
-                if (grantResults.length > 0) {
-                    for (int i = 0; i < grantResults.length; i++) {
-                        if (grantResults[i] != PackageManager.PERMISSION_GRANTED) {
-                            mlocationPermisiongrant = false;
-                            return;
-                        }
 
-                    }
-                    mlocationPermisiongrant = true;
-                    initMap();
-                }
-            }
-        }
-    }
-**/
     // comp de los servicios de google
     public Boolean isServiceOk() {
         Log.d(TAG, "is:serivceOK: Checking version");
@@ -242,15 +268,15 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             mapita.setMyLocationEnabled(true);
 
             // añadir todas las coordenadas
-            double [] coordenadas = {40.454099, -3.778916};
+            ArrayList<Double> coordenadas = coordenadasTodasLasMaquinas();
             anadirMarcadores(coordenadas);
         }
     }
 
     // permite añadir marcadores a granel
-    public void anadirMarcadores(double [] coordenadas){
-        for (int i = 0; i < coordenadas.length; i++){
-            LatLng punto1 = new LatLng(coordenadas[i], coordenadas[i+1]);
+    public void anadirMarcadores(ArrayList<Double> coordenadas){
+        for (int i = 0; i < coordenadas.size(); i++){
+            LatLng punto1 = new LatLng(coordenadas.get(i), coordenadas.get(i+1));
             mapita.addMarker(new MarkerOptions().position(punto1));
             i++;
         }
@@ -264,7 +290,189 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     // Funciones de Jena
 
+    // Funcion privada que establece conexion con el RDF y prepara el atributo modelo
+    private void conexion() {//HECHO
+        String filename = "res/raw/bio_saludables_final.rdf";
 
+        //InputStream in = FileManager.get().open(filename);
+        InputStream intandroid = getResources().openRawResource(R.raw.bio_saludables_final) ;
+        // Create an empty model
+        modelo = ModelFactory.createDefaultModel();
+
+        // Use the FileManager to find the input file
+
+
+        if (intandroid == null)
+            throw new IllegalArgumentException("File: "+filename+" not found");
+
+        // Read the RDF/XML file
+        modelo.read(intandroid,null);
+    }
+
+    /**
+     * ArrayList con el nombre de las maquinas (modelo) sin repetir nombres
+     * @return
+     */
+    public static ArrayList<String> listademaquinas (){//HECHO
+        // Array de Strings a devolver por la funcion
+        ArrayList<String> ganso = new ArrayList<String>();
+        String[] elemento;
+
+        // Creo la propiedad que quiero buscar (HasModelo)
+        Property modelos = modelo.getProperty("https://www.santacruzdetenerife.es/Propiedades/HasModelo");
+
+        // Creo un iterador que me recorra todos los nodos con la propiedad HasModelo
+        NodeIterator iterador = modelo.listObjectsOfProperty(modelos);
+
+        // Recorro y almaceno los valores de los nodos (modelos de maquinas)
+        RDFNode nodo = null;
+        while(iterador.hasNext()) {
+            nodo = iterador.next();
+            elemento = nodo.toString().split("\\^",2);
+            ganso.add(elemento[0]);
+            //System.out.println(elemento[0]);
+        }
+
+        return ganso;
+    }
+
+    /**
+     * Le pasamos el Nombre de la maquina y nos retorna todas las latitudes y longitudes de las maquinas con ese modelo
+     * @param Nmaquina
+     * @return retorna ArrayList de Doubles [lat , long , lat, long...]
+     */
+    public static ArrayList<Double> coordenadasMaquinas (String Nmaquina){//HECHO
+        // Array de Doubles a devolver por la funcion
+        ArrayList<Double> coordenadas = new ArrayList<Double>();
+        Double coordenada;
+        String [] elemento;
+
+        // Creo las propiedades que quiero buscar (HasModelo, lat y long)
+        Property modelos = modelo.getProperty("https://www.santacruzdetenerife.es/Propiedades/HasModelo");
+        Property latitud = modelo.getProperty("http://www.w3.org/2003/01/geo/wgs84_pos#lat");
+        Property longitud = modelo.getProperty("http://www.w3.org/2003/01/geo/wgs84_pos#long");
+
+        // Recorro todos los recursos con coordenadas
+        ResIterator iteradorR = modelo.listResourcesWithProperty(latitud);
+        NodeIterator iteradorN;
+        RDFNode nodo;
+
+        // Almaceno las coordenadas en el array
+        Resource recurso = null;
+        while(iteradorR.hasNext()) {
+            recurso = iteradorR.next();
+            //System.out.println("Recurso: " + recurso);
+            iteradorN = modelo.listObjectsOfProperty(recurso, modelos);
+            while(iteradorN.hasNext()) {
+                nodo = iteradorN.next();
+                elemento = nodo.toString().split("\\^",2);
+                if(elemento[0].equals(Nmaquina)) {
+                    iteradorN = modelo.listObjectsOfProperty(recurso, latitud);
+                    while(iteradorN.hasNext()) {
+                        nodo = iteradorN.next();
+                        elemento = nodo.toString().split("\\^",2);
+                        coordenada = new Double(elemento[0].replace(",", "."));
+                        coordenadas.add(coordenada);
+                        //System.out.println("Latitud: " + coordenada);
+                    }
+                    iteradorN = modelo.listObjectsOfProperty(recurso, longitud);
+                    while(iteradorN.hasNext()) {
+                        nodo = iteradorN.next();
+                        elemento = nodo.toString().split("\\^",2);
+                        coordenada = new Double(elemento[0].replace(",", "."));
+                        coordenadas.add(coordenada);
+                        //System.out.println("Longitud: " + coordenada);
+                    }
+                    //System.out.println();
+                }
+            }
+        }
+
+        return coordenadas;
+    }
+
+    /**
+     * nos retorna todas las latitudes y longitudes de las maquinas
+     *
+     * @return retorna ArrayList de Doubles [lat , long , lat, long...]
+     */
+    public static ArrayList<Double> coordenadasTodasLasMaquinas (){//HECHO
+        // Array de Doubles a devolver por la funcion
+        ArrayList<Double> coordenadas = new ArrayList<Double>();
+        Double coordenada;
+        String [] elemento;
+
+        // Creo las propiedades que quiero buscar (lat y long)
+        Property latitud = modelo.getProperty("http://www.w3.org/2003/01/geo/wgs84_pos#lat");
+        Property longitud = modelo.getProperty("http://www.w3.org/2003/01/geo/wgs84_pos#long");
+
+        // Recorro todos los recursos con coordenadas
+        ResIterator iteradorR = modelo.listResourcesWithProperty(latitud);
+        NodeIterator iteradorN;
+        RDFNode nodo;
+
+        // Almaceno las coordenadas en el array
+        Resource recurso = null;
+        while(iteradorR.hasNext()) {
+            recurso = iteradorR.next();
+            //System.out.println("Recurso: " + recurso);
+            iteradorN = modelo.listObjectsOfProperty(recurso, latitud);
+            while(iteradorN.hasNext()) {
+                nodo = iteradorN.next();
+                elemento = nodo.toString().split("\\^",2);
+                coordenada = new Double(elemento[0].replace(",", "."));
+                coordenadas.add(coordenada);
+                //System.out.println("Latitud: " + coordenada);
+            }
+            iteradorN = modelo.listObjectsOfProperty(recurso, longitud);
+            while(iteradorN.hasNext()) {
+                nodo = iteradorN.next();
+                elemento = nodo.toString().split("\\^",2);
+                coordenada = new Double(elemento[0].replace(",", "."));
+                coordenadas.add(coordenada);
+                //System.out.println("Longitud: " + coordenada);
+            }
+            //System.out.println();
+        }
+
+        return coordenadas;
+    }
+
+    /**
+     * Le paso el nombre de la maquina y me da su URL
+     * @param Nmaquina
+     * @return
+     */
+    public static ArrayList<String> UriMaquina (String Nmaquina){//HECHO
+        // Array de URIs a devolver por la funcion
+        ArrayList<String> uris = new ArrayList<String>();
+        String [] elemento;
+
+        // Propiedades a buscar (HasModelo)
+        Property modelos = modelo.getProperty("https://www.santacruzdetenerife.es/Propiedades/HasModelo");
+
+        // Recorro los recursos en busca del modelo requerido
+        ResIterator iteradorR = modelo.listResourcesWithProperty(modelos);
+        NodeIterator iteradorN;
+        Resource recurso;
+        RDFNode nodo;
+
+        // Voy almacenando las URIs de las maquinas con el modelo pedido
+        while(iteradorR.hasNext()) {
+            recurso = iteradorR.next();
+            iteradorN = modelo.listObjectsOfProperty(recurso, modelos);
+            while(iteradorN.hasNext()) {
+                nodo = iteradorN.next();
+                elemento = nodo.toString().split("\\^", 2);
+                if(elemento[0].equals(Nmaquina)){
+                    uris.add(recurso.toString());
+                    //System.out.println(recurso.toString());
+                }
+            }
+        }
+
+        return uris;
+    }
 
 
 
