@@ -6,6 +6,7 @@
 <http://www.santacruzdetenerife.es/0>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "0.0"^^xsd:int ;
+  ns0:HasModelo "155B Los Patines"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "P. VIera y Clavijo"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf"^^xsd:anyURI ;
@@ -15,6 +16,7 @@
 <http://www.santacruzdetenerife.es/1>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "1.0"^^xsd:int ;
+  ns0:HasModelo "155F Barras Paralelas"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "P. VIera y Clavijo"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155F.pdf"^^xsd:anyURI ;
@@ -24,6 +26,7 @@
 <http://www.santacruzdetenerife.es/2>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "2.0"^^xsd:int ;
+  ns0:HasModelo "155H El Jinete"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "P. VIera y Clavijo"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf"^^xsd:anyURI ;
@@ -33,6 +36,7 @@
 <http://www.santacruzdetenerife.es/3>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "3.0"^^xsd:int ;
+  ns0:HasModelo "207T Step & Twist"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Los Majuelos"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf"^^xsd:anyURI ;
@@ -42,6 +46,7 @@
 <http://www.santacruzdetenerife.es/4>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "4.0"^^xsd:int ;
+  ns0:HasModelo "155B Los Patines"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Los Majuelos"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf"^^xsd:anyURI ;
@@ -51,6 +56,7 @@
 <http://www.santacruzdetenerife.es/5>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "5.0"^^xsd:int ;
+  ns0:HasModelo "155F Barras Paralelas"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Los Majuelos"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155F.pdf"^^xsd:anyURI ;
@@ -60,6 +66,7 @@
 <http://www.santacruzdetenerife.es/6>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "6.0"^^xsd:int ;
+  ns0:HasModelo "155H El Jinete"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Los Majuelos"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf"^^xsd:anyURI ;
@@ -68,6 +75,7 @@
 
 <http://www.santacruzdetenerife.es/7>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasModelo "202T Bicicleta Estática"^^xsd:string ;
   ns0:HasFID "7.0"^^xsd:int ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Marítima"^^xsd:string ;
@@ -78,6 +86,7 @@
 <http://www.santacruzdetenerife.es/8>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "8.0"^^xsd:int ;
+  ns0:HasModelo "155B Los Patines"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Marítima"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf"^^xsd:anyURI ;
@@ -85,17 +94,19 @@
   geo:lat "28.4619740767"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/9>
-  geo:long "-16.2486056588"^^xsd:int ;
+  ns0:HasModelo "154B Esquí de Fondo"^^xsd:string ;
   schema:address "Avda. Marítima"^^xsd:string ;
+  ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "9.0"^^xsd:int ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf"^^xsd:anyURI ;
-  geo:lat "28.4620624087"^^xsd:int ;
-  ns0:HasFabricante "TUYO HPC"^^xsd:string .
+  geo:long "-16.2486056588"^^xsd:int ;
+  geo:lat "28.4620624087"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/10>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "10.0"^^xsd:int ;
+  ns0:HasModelo "155B Los Patines"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Fernández Navarro"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf"^^xsd:anyURI ;
@@ -105,6 +116,7 @@
 <http://www.santacruzdetenerife.es/11>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "11.0"^^xsd:int ;
+  ns0:HasModelo "207T Step & Twist"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Fernández Navarro"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf"^^xsd:anyURI ;
@@ -114,6 +126,7 @@
 <http://www.santacruzdetenerife.es/12>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "12.0"^^xsd:int ;
+  ns0:HasModelo "202T Bicicleta Estática"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Ganivet"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf"^^xsd:anyURI ;
@@ -123,6 +136,7 @@
 <http://www.santacruzdetenerife.es/13>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "13.0"^^xsd:int ;
+  ns0:HasModelo "155B Los Patines"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Ganivet"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf"^^xsd:anyURI ;
@@ -130,8 +144,9 @@
   geo:lat "28.4600265871"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/14>
-  ns0:HasFID "14.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "14.0"^^xsd:int ;
+  ns0:HasModelo "202T Bicicleta Estática"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "P. La Granja"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf"^^xsd:anyURI ;
@@ -141,6 +156,7 @@
 <http://www.santacruzdetenerife.es/15>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "15.0"^^xsd:int ;
+  ns0:HasModelo "154B Esquí de Fondo"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "P. La Granja"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf"^^xsd:anyURI ;
@@ -150,6 +166,7 @@
 <http://www.santacruzdetenerife.es/16>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "16.0"^^xsd:int ;
+  ns0:HasModelo "154D Sube y Baja"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "P. La Granja"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154D.pdf"^^xsd:anyURI ;
@@ -159,6 +176,7 @@
 <http://www.santacruzdetenerife.es/17>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "17.0"^^xsd:int ;
+  ns0:HasModelo "202T Bicicleta Estática"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "San Juan de la Rambla"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf"^^xsd:anyURI ;
@@ -168,6 +186,7 @@
 <http://www.santacruzdetenerife.es/18>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "18.0"^^xsd:int ;
+  ns0:HasModelo "207T Step & Twist"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "San Juan de la Rambla"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf"^^xsd:anyURI ;
@@ -175,17 +194,19 @@
   geo:lat "28.4700502907"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/19>
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "19.0"^^xsd:int ;
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasModelo "154G Rueda Grande"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Pza. La Victoria"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf"^^xsd:anyURI ;
-  geo:lat "28.4589887091"^^xsd:int ;
-  geo:long "-16.2598202239"^^xsd:int .
+  geo:long "-16.2598202239"^^xsd:int ;
+  geo:lat "28.4589887091"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/20>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "20.0"^^xsd:int ;
+  ns0:HasModelo "155B Los Patines"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Pza. La Victoria"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf"^^xsd:anyURI ;
@@ -195,6 +216,7 @@
 <http://www.santacruzdetenerife.es/21>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "21.0"^^xsd:int ;
+  ns0:HasModelo "202T Bicicleta Estática"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Pza. García Escámez"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf"^^xsd:anyURI ;
@@ -204,6 +226,7 @@
 <http://www.santacruzdetenerife.es/22>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "22.0"^^xsd:int ;
+  ns0:HasModelo "155I El Remo"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Pza. García Escámez"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf"^^xsd:anyURI ;
@@ -211,17 +234,19 @@
   geo:lat "28.4551347657"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/23>
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "23.0"^^xsd:int ;
+  ns0:HasModelo "154B Esquí de Fondo"^^xsd:string ;
+  ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Pza. García Escámez"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf"^^xsd:anyURI ;
   geo:long "-16.2728630374"^^xsd:int ;
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
-  ns0:HasFID "23.0"^^xsd:int ;
-  ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   geo:lat "28.4551305986"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/24>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "24.0"^^xsd:int ;
+  ns0:HasModelo "AMM-019 Torsión de Tronc"^^xsd:string ;
   ns0:HasFabricante "Kido"^^xsd:string ;
   schema:address "Pza. García Escámez"^^xsd:string ;
   ns0:HasEnlace " "^^xsd:anyURI ;
@@ -231,6 +256,7 @@
 <http://www.santacruzdetenerife.es/25>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "25.0"^^xsd:int ;
+  ns0:HasModelo "AMM-017 Stepper"^^xsd:string ;
   ns0:HasFabricante "Kido"^^xsd:string ;
   schema:address "Pza. García Escámez"^^xsd:string ;
   ns0:HasEnlace " "^^xsd:anyURI ;
@@ -240,6 +266,7 @@
 <http://www.santacruzdetenerife.es/26>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "26.0"^^xsd:int ;
+  ns0:HasModelo "AMM-018 Bicicleta Est."^^xsd:string ;
   ns0:HasFabricante "Kido"^^xsd:string ;
   schema:address "Pza. San José"^^xsd:string ;
   ns0:HasEnlace " "^^xsd:anyURI ;
@@ -249,6 +276,7 @@
 <http://www.santacruzdetenerife.es/27>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "27.0"^^xsd:int ;
+  ns0:HasModelo "AMM-012 Movimiento Brazo"^^xsd:string ;
   ns0:HasFabricante "Kido"^^xsd:string ;
   schema:address "Pza. San José"^^xsd:string ;
   ns0:HasEnlace " "^^xsd:anyURI ;
@@ -258,6 +286,7 @@
 <http://www.santacruzdetenerife.es/28>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "28.0"^^xsd:int ;
+  ns0:HasModelo "AMM-011 Escalera Dedos"^^xsd:string ;
   ns0:HasFabricante "Kido"^^xsd:string ;
   schema:address "Pza. María Auxiliadora"^^xsd:string ;
   ns0:HasEnlace " "^^xsd:anyURI ;
@@ -265,17 +294,19 @@
   geo:lat "28.4651086877"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/29>
-  ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "29.0"^^xsd:int ;
-  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf"^^xsd:anyURI ;
+  ns0:HasModelo "155I El Remo"^^xsd:string ;
+  ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Príncipes de España"^^xsd:string ;
+  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf"^^xsd:anyURI ;
   geo:long "-16.2861077165"^^xsd:int ;
   geo:lat "28.4509726322"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/30>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "30.0"^^xsd:int ;
+  ns0:HasModelo "202T Bicicleta Estática"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Príncipes de España"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf"^^xsd:anyURI ;
@@ -283,17 +314,19 @@
   geo:lat "28.4507634008"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/31>
-  geo:long "-16.285911422"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "31.0"^^xsd:int ;
+  ns0:HasModelo "155E Silla Pectorales"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Príncipes de España"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf"^^xsd:anyURI ;
+  geo:long "-16.285911422"^^xsd:int ;
   geo:lat "28.4513096951"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/32>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "32.0"^^xsd:int ;
+  ns0:HasModelo "154B Esquí de Fondo"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Príncipes de España"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf"^^xsd:anyURI ;
@@ -303,6 +336,7 @@
 <http://www.santacruzdetenerife.es/33>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "33.0"^^xsd:int ;
+  ns0:HasModelo "AMM-015 Mov. Ondular"^^xsd:string ;
   ns0:HasFabricante "Kido"^^xsd:string ;
   schema:address "Avda. Príncipes de España"^^xsd:string ;
   ns0:HasEnlace " "^^xsd:anyURI ;
@@ -312,6 +346,7 @@
 <http://www.santacruzdetenerife.es/34>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "34.0"^^xsd:int ;
+  ns0:HasModelo "AMM-018 Bicicleta Est."^^xsd:string ;
   ns0:HasFabricante "Kido"^^xsd:string ;
   schema:address "Avda. Príncipes de España"^^xsd:string ;
   ns0:HasEnlace " "^^xsd:anyURI ;
@@ -321,6 +356,7 @@
 <http://www.santacruzdetenerife.es/35>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "35.0"^^xsd:int ;
+  ns0:HasModelo "AMM-013 Mov. Circ. Brazo"^^xsd:string ;
   ns0:HasFabricante "Kido"^^xsd:string ;
   schema:address "Avda. Príncipes de España"^^xsd:string ;
   ns0:HasEnlace " "^^xsd:anyURI ;
@@ -330,6 +366,7 @@
 <http://www.santacruzdetenerife.es/36>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "36.0"^^xsd:int ;
+  ns0:HasModelo "154B Esquí de Fondo"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "P. Santa Catalina"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf"^^xsd:anyURI ;
@@ -339,6 +376,7 @@
 <http://www.santacruzdetenerife.es/37>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "37.0"^^xsd:int ;
+  ns0:HasModelo "155I El Remo"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "P. Santa Catalina"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf"^^xsd:anyURI ;
@@ -348,6 +386,7 @@
 <http://www.santacruzdetenerife.es/38>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "38.0"^^xsd:int ;
+  ns0:HasModelo "155C Giro de Cintura"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "P. Santa Catalina"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155C.pdf"^^xsd:anyURI ;
@@ -357,6 +396,7 @@
 <http://www.santacruzdetenerife.es/39>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "39.0"^^xsd:int ;
+  ns0:HasModelo "154C Slalom"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "P. Santa Catalina"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154C.pdf"^^xsd:anyURI ;
@@ -366,6 +406,7 @@
 <http://www.santacruzdetenerife.es/40>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "40.0"^^xsd:int ;
+  ns0:HasModelo "155F Barras Paralelas"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "P. Santa Catalina"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155F.pdf"^^xsd:anyURI ;
@@ -375,6 +416,7 @@
 <http://www.santacruzdetenerife.es/41>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "41.0"^^xsd:int ;
+  ns0:HasModelo "155H El Jinete"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "P. Santa Catalina"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf"^^xsd:anyURI ;
@@ -384,6 +426,7 @@
 <http://www.santacruzdetenerife.es/42>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "42.0"^^xsd:int ;
+  ns0:HasModelo "AMM-005 Varios"^^xsd:string ;
   ns0:HasFabricante "Kido"^^xsd:string ;
   schema:address "Avda. Pedro Schwartz"^^xsd:string ;
   ns0:HasEnlace " "^^xsd:anyURI ;
@@ -393,6 +436,7 @@
 <http://www.santacruzdetenerife.es/43>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "43.0"^^xsd:int ;
+  ns0:HasModelo "AMM-004 Varios"^^xsd:string ;
   ns0:HasFabricante "Kido"^^xsd:string ;
   schema:address "Avda. Pedro Schwartz"^^xsd:string ;
   ns0:HasEnlace " "^^xsd:anyURI ;
@@ -402,6 +446,7 @@
 <http://www.santacruzdetenerife.es/44>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "44.0"^^xsd:int ;
+  ns0:HasModelo "155H El Jinete"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Reyes Católicos"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf"^^xsd:anyURI ;
@@ -411,6 +456,7 @@
 <http://www.santacruzdetenerife.es/45>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "45.0"^^xsd:int ;
+  ns0:HasModelo "154G Rueda Grande"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Reyes Católicos"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf"^^xsd:anyURI ;
@@ -420,6 +466,7 @@
 <http://www.santacruzdetenerife.es/46>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "46.0"^^xsd:int ;
+  ns0:HasModelo "155B Los Patines"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Pza. Los Sabandeños"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf"^^xsd:anyURI ;
@@ -429,6 +476,7 @@
 <http://www.santacruzdetenerife.es/47>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "47.0"^^xsd:int ;
+  ns0:HasModelo "202T Bicicleta Estática"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Pza. Los Sabandeños"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf"^^xsd:anyURI ;
@@ -436,17 +484,19 @@
   geo:lat "28.4605449896"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/48>
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
-  ns0:HasFID "48.0"^^xsd:int ;
-  ns0:HasFabricante "TUYO HPC"^^xsd:string ;
-  schema:address "Pza. Los Sabandeños"^^xsd:string ;
+  geo:long "-16.2625531553"^^xsd:int ;
   geo:lat "28.4604841108"^^xsd:int ;
+  ns0:HasFID "48.0"^^xsd:int ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf"^^xsd:anyURI ;
-  geo:long "-16.2625531553"^^xsd:int .
+  ns0:HasModelo "207T Step & Twist"^^xsd:string ;
+  schema:address "Pza. Los Sabandeños"^^xsd:string ;
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFabricante "TUYO HPC"^^xsd:string .
 
 <http://www.santacruzdetenerife.es/49>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "49.0"^^xsd:int ;
+  ns0:HasModelo "155H El Jinete"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Francisco La Roche"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf"^^xsd:anyURI ;
@@ -456,6 +506,7 @@
 <http://www.santacruzdetenerife.es/50>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "50.0"^^xsd:int ;
+  ns0:HasModelo "155I El Remo"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Francisco La Roche"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf"^^xsd:anyURI ;
@@ -463,17 +514,19 @@
   geo:lat "28.4772523625"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/51>
-  geo:lat "28.4775103827"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "51.0"^^xsd:int ;
+  ns0:HasModelo "155B Los Patines"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Francisco La Roche"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf"^^xsd:anyURI ;
-  geo:long "-16.2444565768"^^xsd:int .
+  geo:long "-16.2444565768"^^xsd:int ;
+  geo:lat "28.4775103827"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/52>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "52.0"^^xsd:int ;
+  ns0:HasModelo "202T Bicicleta Estática"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Francisco La Roche"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf"^^xsd:anyURI ;
@@ -483,6 +536,7 @@
 <http://www.santacruzdetenerife.es/53>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "53.0"^^xsd:int ;
+  ns0:HasModelo "207T Step & Twist"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Francisco La Roche"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf"^^xsd:anyURI ;
@@ -490,17 +544,19 @@
   geo:lat "28.4779033713"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/54>
-  ns0:HasFID "54.0"^^xsd:int ;
-  schema:address "Avda. Francisco La Roche"^^xsd:string ;
-  ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "54.0"^^xsd:int ;
+  ns0:HasModelo "155C Giro de Cintura"^^xsd:string ;
+  ns0:HasFabricante "TUYO HPC"^^xsd:string ;
+  schema:address "Avda. Francisco La Roche"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155C.pdf"^^xsd:anyURI ;
   geo:long "-16.2438031517"^^xsd:int ;
   geo:lat "28.4780262191"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/55>
-  ns0:HasFID "55.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "55.0"^^xsd:int ;
+  ns0:HasModelo "155D Barra estiramientos"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Francisco La Roche"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155D.pdf"^^xsd:anyURI ;
@@ -508,8 +564,9 @@
   geo:lat "28.4783044503"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/56>
-  ns0:HasFID "56.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "56.0"^^xsd:int ;
+  ns0:HasModelo "155H El Jinete"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Río Guadalete"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf"^^xsd:anyURI ;
@@ -517,10 +574,11 @@
   geo:lat "28.473716796"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/57>
+  schema:address "Río Guadalete"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "57.0"^^xsd:int ;
+  ns0:HasModelo "202T Bicicleta Estática"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
-  schema:address "Río Guadalete"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf"^^xsd:anyURI ;
   geo:long "-16.2765109501"^^xsd:int ;
   geo:lat "28.4736891821"^^xsd:int .
@@ -528,6 +586,7 @@
 <http://www.santacruzdetenerife.es/58>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "58.0"^^xsd:int ;
+  ns0:HasModelo "154G Rueda Grande"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Río Guadalete"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf"^^xsd:anyURI ;
@@ -537,6 +596,7 @@
 <http://www.santacruzdetenerife.es/59>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "59.0"^^xsd:int ;
+  ns0:HasModelo "155I El Remo"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Reyes Católicos"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf"^^xsd:anyURI ;
@@ -545,6 +605,7 @@
 
 <http://www.santacruzdetenerife.es/60>
   ns0:HasFID "60.0"^^xsd:int ;
+  ns0:HasModelo "202T Bicicleta Estática"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Reyes Católicos"^^xsd:string ;
@@ -553,8 +614,9 @@
   geo:lat "28.4614158087"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/61>
-  ns0:HasFID "61.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "61.0"^^xsd:int ;
+  ns0:HasModelo "154B Esquí de Fondo"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Reyes Católicos"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf"^^xsd:anyURI ;
@@ -562,8 +624,9 @@
   geo:lat "28.462908142"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/62>
-  ns0:HasFID "62.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "62.0"^^xsd:int ;
+  ns0:HasModelo "155E Silla Pectorales"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Pza. La Victoria"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf"^^xsd:anyURI ;
@@ -573,6 +636,7 @@
 <http://www.santacruzdetenerife.es/63>
   ns0:HasFID "63.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasModelo "202T Bicicleta Estática"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Pza. Iglesia Cueva Bermeja"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf"^^xsd:anyURI ;
@@ -580,6 +644,7 @@
   geo:lat "28.4962164245"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/64>
+  ns0:HasModelo "PF9 Oblic"^^xsd:string ;
   ns0:HasFID "64.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
@@ -589,8 +654,9 @@
   geo:lat "28.4966291093"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/65>
-  ns0:HasFID "65.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "65.0"^^xsd:int ;
+  ns0:HasModelo "155B Los Patines"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Rambla Añaza"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf"^^xsd:anyURI ;
@@ -598,8 +664,9 @@
   geo:lat "28.4245199571"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/66>
-  ns0:HasFID "66.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "66.0"^^xsd:int ;
+  ns0:HasModelo "155I El Remo"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Rambla Añaza"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf"^^xsd:anyURI ;
@@ -607,8 +674,9 @@
   geo:lat "28.4250792035"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/67>
-  ns0:HasFID "67.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "67.0"^^xsd:int ;
+  ns0:HasModelo "207T Step & Twist"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Rambla Añaza"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf"^^xsd:anyURI ;
@@ -616,8 +684,9 @@
   geo:lat "28.426018328"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/68>
-  ns0:HasFID "68.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "68.0"^^xsd:int ;
+  ns0:HasModelo "202T Bicicleta Estática"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Rambla Añaza"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf"^^xsd:anyURI ;
@@ -625,8 +694,9 @@
   geo:lat "28.4267412697"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/69>
-  ns0:HasFID "69.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "69.0"^^xsd:int ;
+  ns0:HasModelo "159J Espaldera"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "P. VIera y Clavijo"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/159J.pdf"^^xsd:anyURI ;
@@ -636,6 +706,7 @@
 <http://www.santacruzdetenerife.es/70>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "70.0"^^xsd:int ;
+  ns0:HasModelo "159J Espaldera"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "P. La Estrella"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/159J.pdf"^^xsd:anyURI ;
@@ -645,6 +716,7 @@
 <http://www.santacruzdetenerife.es/71>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "71.0"^^xsd:int ;
+  ns0:HasModelo "155D Barra estiramientos"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "P. La Estrella"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155D.pdf"^^xsd:anyURI ;
@@ -652,17 +724,19 @@
   geo:lat "28.4295665043"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/72>
+  ns0:HasFID "72.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasModelo "J3709 Barra fija 2 m."^^xsd:string ;
   ns0:HasFabricante "HPC"^^xsd:string ;
   schema:address "P. Viera y Clavijo"^^xsd:string ;
-  ns0:HasFID "72.0"^^xsd:int ;
   ns0:HasEnlace " "^^xsd:anyURI ;
   geo:long "-16.2618931563"^^xsd:int ;
   geo:lat "28.4652821544"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/73>
-  ns0:HasFID "73.0"^^xsd:int ;
+  ns0:HasModelo "202T Bicicleta Estática"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "73.0"^^xsd:int ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Punta de Anaga"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf"^^xsd:anyURI ;
@@ -672,14 +746,16 @@
 <http://www.santacruzdetenerife.es/74>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "74.0"^^xsd:int ;
+  ns0:HasModelo "155E Silla Pectorales"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
+  schema:address "Punta de Anaga"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf"^^xsd:anyURI ;
-  geo:lat "28.4314794476"^^xsd:int ;
   geo:long "-16.306249351"^^xsd:int ;
-  schema:address "Punta de Anaga"^^xsd:string .
+  geo:lat "28.4314794476"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/75>
   ns0:HasFID "75.0"^^xsd:int ;
+  ns0:HasModelo "155B Los Patines"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Punta de Anaga"^^xsd:string ;
@@ -688,8 +764,9 @@
   geo:lat "28.4318325548"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/76>
-  ns0:HasFID "76.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "76.0"^^xsd:int ;
+  ns0:HasModelo "155I El Remo"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Pza. Los Dragos"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf"^^xsd:anyURI ;
@@ -699,6 +776,7 @@
 <http://www.santacruzdetenerife.es/77>
   ns0:HasFID "77.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasModelo "202T Bicicleta Estática"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Pza. Los Dragos"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf"^^xsd:anyURI ;
@@ -708,6 +786,7 @@
 <http://www.santacruzdetenerife.es/78>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "78.0"^^xsd:int ;
+  ns0:HasModelo "159J Espaldera"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Príncipes de España"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/159J.pdf"^^xsd:anyURI ;
@@ -717,6 +796,7 @@
 <http://www.santacruzdetenerife.es/79>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "79.0"^^xsd:int ;
+  ns0:HasModelo "155E Silla Pectorales"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Chafira"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf"^^xsd:anyURI ;
@@ -726,6 +806,7 @@
 <http://www.santacruzdetenerife.es/80>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "80.0"^^xsd:int ;
+  ns0:HasModelo "154B Esquí de Fondo"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Chafira"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf"^^xsd:anyURI ;
@@ -735,6 +816,7 @@
 <http://www.santacruzdetenerife.es/81>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "81.0"^^xsd:int ;
+  ns0:HasModelo "202T Bicicleta Estática"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Pza. Nuestra Sra. de las Nieves"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf"^^xsd:anyURI ;
@@ -742,8 +824,9 @@
   geo:lat "28.5610047544"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/82>
-  ns0:HasFID "82.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "82.0"^^xsd:int ;
+  ns0:HasModelo "155I El Remo"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Pza. Nuestra Sra. de las Nieves"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf"^^xsd:anyURI ;
@@ -751,8 +834,9 @@
   geo:lat "28.5610072703"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/83>
-  ns0:HasFID "83.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "83.0"^^xsd:int ;
+  ns0:HasModelo "155I El Remo"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Zafiro"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf"^^xsd:anyURI ;
@@ -762,6 +846,7 @@
 <http://www.santacruzdetenerife.es/84>
   ns0:HasFID "84.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasModelo "155G Las Ruedas"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Zafiro"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/15GF.pdf"^^xsd:anyURI ;
@@ -769,8 +854,9 @@
   geo:lat "28.4540341936"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/85>
-  ns0:HasFID "85.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "85.0"^^xsd:int ;
+  ns0:HasModelo "202T Bicicleta Estática"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Zafiro"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf"^^xsd:anyURI ;
@@ -778,17 +864,19 @@
   geo:lat "28.4540542795"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/86>
-  schema:address "Pza. del Rosario"^^xsd:string ;
-  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf"^^xsd:anyURI ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "86.0"^^xsd:int ;
+  ns0:HasModelo "202T Bicicleta Estática"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
+  schema:address "Pza. del Rosario"^^xsd:string ;
+  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf"^^xsd:anyURI ;
   geo:long "-16.2754728284"^^xsd:int ;
   geo:lat "28.4528756441"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/87>
-  ns0:HasFID "87.0"^^xsd:int ;
+  ns0:HasModelo "155B Los Patines"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "87.0"^^xsd:int ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Pza. del Rosario"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf"^^xsd:anyURI ;
@@ -797,9 +885,10 @@
 
 <http://www.santacruzdetenerife.es/88>
   ns0:HasFID "88.0"^^xsd:int ;
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Colegio Afur"^^xsd:string ;
+  ns0:HasModelo "155I El Remo"^^xsd:string ;
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf"^^xsd:anyURI ;
   geo:long "-16.249405824"^^xsd:int ;
   geo:lat "28.5550401054"^^xsd:int .
@@ -807,6 +896,7 @@
 <http://www.santacruzdetenerife.es/89>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "89.0"^^xsd:int ;
+  ns0:HasModelo "202T Bicicleta Estática"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Colegio Afur"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf"^^xsd:anyURI ;
@@ -814,8 +904,9 @@
   geo:lat "28.5550431889"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/90>
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasModelo "155E Silla Pectorales"^^xsd:string ;
   ns0:HasFID "90.0"^^xsd:int ;
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Río Guadalete"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf"^^xsd:anyURI ;
@@ -823,6 +914,7 @@
   geo:lat "28.4736565699"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/91>
+  ns0:HasModelo "155I El Remo"^^xsd:string ;
   ns0:HasFID "91.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
@@ -833,16 +925,18 @@
 
 <http://www.santacruzdetenerife.es/92>
   ns0:HasFID "92.0"^^xsd:int ;
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Izquierdo Azcárate"^^xsd:string ;
+  ns0:HasModelo "155I El Remo"^^xsd:string ;
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf"^^xsd:anyURI ;
   geo:long "-16.2723384613"^^xsd:int ;
   geo:lat "28.4578255479"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/93>
-  ns0:HasFID "93.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "93.0"^^xsd:int ;
+  ns0:HasModelo "202T Bicicleta Estática"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Izquierdo Azcárate"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf"^^xsd:anyURI ;
@@ -850,17 +944,19 @@
   geo:lat "28.457825934"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/94>
-  schema:address "Paseo Peatonal Las Asuncionistas"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "94.0"^^xsd:int ;
+  ns0:HasModelo "202T Bicicleta Estática"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
+  schema:address "Paseo Peatonal Las Asuncionistas"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf"^^xsd:anyURI ;
   geo:long "-16.262418042"^^xsd:int ;
   geo:lat "28.4664961973"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/95>
-  ns0:HasFID "95.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "95.0"^^xsd:int ;
+  ns0:HasModelo "155I El Remo"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Paseo Peatonal Las Asuncionistas"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf"^^xsd:anyURI ;
@@ -868,8 +964,9 @@
   geo:lat "28.4666121983"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/96>
-  ns0:HasFID "96.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "96.0"^^xsd:int ;
+  ns0:HasModelo "155H El Jinete"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Pza. Duggi"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf"^^xsd:anyURI ;
@@ -877,8 +974,9 @@
   geo:lat "28.4662081507"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/97>
-  ns0:HasFID "97.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "97.0"^^xsd:int ;
+  ns0:HasModelo "154C Slalom"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Pza. Duggi"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154C.pdf"^^xsd:anyURI ;
@@ -888,6 +986,7 @@
 <http://www.santacruzdetenerife.es/98>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "98.0"^^xsd:int ;
+  ns0:HasModelo "154B Esquí de Fondo"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Pza. Duggi"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf"^^xsd:anyURI ;
@@ -897,6 +996,7 @@
 <http://www.santacruzdetenerife.es/99>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "99.0"^^xsd:int ;
+  ns0:HasModelo "207T Step & Twist"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Cmo. La Ermita"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/207T.pdf"^^xsd:anyURI ;
@@ -906,15 +1006,17 @@
 <http://www.santacruzdetenerife.es/100>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "100.0"^^xsd:int ;
-  schema:address "Cmo. La Ermita"^^xsd:string ;
+  ns0:HasModelo "155B Los Patines"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
+  schema:address "Cmo. La Ermita"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155B.pdf"^^xsd:anyURI ;
   geo:long "-16.2700017068"^^xsd:int ;
   geo:lat "28.4726177549"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/101>
-  ns0:HasFID "101.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "101.0"^^xsd:int ;
+  ns0:HasModelo "154B Esquí de Fondo"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Curva El Arco Iris"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf"^^xsd:anyURI ;
@@ -922,26 +1024,29 @@
   geo:lat "28.4470121485"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/102>
-  ns0:HasFID "102.0"^^xsd:int ;
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Curva El Arco Iris"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf"^^xsd:anyURI ;
   geo:long "-16.2879766998"^^xsd:int ;
-  geo:lat "28.4470284006"^^xsd:int .
+  geo:lat "28.4470284006"^^xsd:int ;
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "102.0"^^xsd:int ;
+  ns0:HasModelo "155I El Remo"^^xsd:string .
 
 <http://www.santacruzdetenerife.es/103>
-  ns0:HasFID "103.0"^^xsd:int ;
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
-  ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Príncipes de España"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155C.pdf"^^xsd:anyURI ;
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "103.0"^^xsd:int ;
+  ns0:HasModelo "155B Los Patines"^^xsd:string ;
+  ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   geo:long "-16.2840211121"^^xsd:int ;
   geo:lat "28.4555096315"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/104>
-  ns0:HasFID "104.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "104.0"^^xsd:int ;
+  ns0:HasModelo "155E Silla Pectorales"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Príncipes de España"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf"^^xsd:anyURI ;
@@ -949,8 +1054,9 @@
   geo:lat "28.4559551408"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/105>
-  ns0:HasFID "105.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "105.0"^^xsd:int ;
+  ns0:HasModelo "155I El Remo"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Res. San Pío X"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf"^^xsd:anyURI ;
@@ -960,6 +1066,7 @@
 <http://www.santacruzdetenerife.es/106>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "106.0"^^xsd:int ;
+  ns0:HasModelo "155H El Jinete"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Res. San Pío X"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf"^^xsd:anyURI ;
@@ -969,6 +1076,7 @@
 <http://www.santacruzdetenerife.es/107>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "107.0"^^xsd:int ;
+  ns0:HasModelo "155E Silla Pectorales"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "García Lorca"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf"^^xsd:anyURI ;
@@ -976,8 +1084,9 @@
   geo:lat "28.4572566511"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/108>
-  ns0:HasFID "108.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "108.0"^^xsd:int ;
+  ns0:HasModelo "154B Esquí de Fondo"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "García Lorca"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf"^^xsd:anyURI ;
@@ -985,17 +1094,19 @@
   geo:lat "28.4571774169"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/109>
-  ns0:HasFID "109.0"^^xsd:int ;
-  ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "109.0"^^xsd:int ;
+  ns0:HasModelo "202T Bicicleta Estática"^^xsd:string ;
+  ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Poeta Francisco Izquierdo"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf"^^xsd:anyURI ;
   geo:long "-16.2709457105"^^xsd:int ;
   geo:lat "28.4576256211"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/110>
-  ns0:HasFID "110.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "110.0"^^xsd:int ;
+  ns0:HasModelo "155D Barra estiramientos"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Marítima"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155D.pdf"^^xsd:anyURI ;
@@ -1003,8 +1114,9 @@
   geo:lat "28.4630818584"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/111>
-  ns0:HasFID "111.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "111.0"^^xsd:int ;
+  ns0:HasModelo "155E Silla Pectorales"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Marítima"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf"^^xsd:anyURI ;
@@ -1012,8 +1124,9 @@
   geo:lat "28.4630673277"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/112>
-  ns0:HasFID "112.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "112.0"^^xsd:int ;
+  ns0:HasModelo "154B Esquí de Fondo"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Marítima"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf"^^xsd:anyURI ;
@@ -1023,6 +1136,7 @@
 <http://www.santacruzdetenerife.es/113>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "113.0"^^xsd:int ;
+  ns0:HasModelo "202T Bicicleta Estática"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Avda. Marítima"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf"^^xsd:anyURI ;
@@ -1032,6 +1146,7 @@
 <http://www.santacruzdetenerife.es/114>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "114.0"^^xsd:int ;
+  ns0:HasModelo "155E Silla Pectorales"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "P. Leoncio Oramas"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155E.pdf"^^xsd:anyURI ;
@@ -1041,6 +1156,7 @@
 <http://www.santacruzdetenerife.es/115>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "115.0"^^xsd:int ;
+  ns0:HasModelo "202T Bicicleta Estática"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "P. Leoncio Oramas"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf"^^xsd:anyURI ;
@@ -1048,44 +1164,49 @@
   geo:lat "28.4590998419"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/116>
+  geo:long "-16.2700195429"^^xsd:int ;
+  geo:lat "28.4590805585"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "116.0"^^xsd:int ;
+  ns0:HasModelo "154B Esquí de Fondo"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "P. Leoncio Oramas"^^xsd:string ;
-  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf"^^xsd:anyURI ;
-  geo:long "-16.2700195429"^^xsd:int ;
-  geo:lat "28.4590805585"^^xsd:int .
+  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf"^^xsd:anyURI .
 
 <http://www.santacruzdetenerife.es/117>
+  ns0:HasEnlace " "^^xsd:anyURI ;
+  geo:lat "28.4680320164"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "117.0"^^xsd:int ;
+  ns0:HasModelo "AE004 Sky Stepper"^^xsd:string ;
   ns0:HasFabricante "Parkesa"^^xsd:string ;
   schema:address "P. Las Indias"^^xsd:string ;
-  ns0:HasEnlace " "^^xsd:anyURI ;
-  geo:long "-16.2716697301"^^xsd:int ;
-  geo:lat "28.4680320164"^^xsd:int .
+  geo:long "-16.2716697301"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/118>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasEnlace " "^^xsd:anyURI ;
   ns0:HasFID "118.0"^^xsd:int ;
   ns0:HasFabricante "Parkesa"^^xsd:string ;
+  ns0:HasModelo "MB001 Big Wheel"^^xsd:string ;
   schema:address "P. Las Indias"^^xsd:string ;
-  ns0:HasEnlace " "^^xsd:anyURI ;
   geo:long "-16.2716802153"^^xsd:int ;
   geo:lat "28.4680050013"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/119>
-  ns0:HasEnlace " "^^xsd:anyURI ;
-  ns0:HasFID "119.0"^^xsd:int ;
-  schema:address "P. Las Indias"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "119.0"^^xsd:int ;
+  ns0:HasModelo "TS002 Power Push"^^xsd:string ;
   ns0:HasFabricante "Parkesa"^^xsd:string ;
+  schema:address "P. Las Indias"^^xsd:string ;
+  ns0:HasEnlace " "^^xsd:anyURI ;
   geo:long "-16.2716936272"^^xsd:int ;
   geo:lat "28.4679762222"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/120>
-  ns0:HasFID "120.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "120.0"^^xsd:int ;
+  ns0:HasModelo "AE001 Health Walker"^^xsd:string ;
   ns0:HasFabricante "Parkesa"^^xsd:string ;
   schema:address "P. Las Indias"^^xsd:string ;
   ns0:HasEnlace " "^^xsd:anyURI ;
@@ -1093,8 +1214,9 @@
   geo:lat "28.4679422156"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/121>
-  ns0:HasFID "121.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "121.0"^^xsd:int ;
+  ns0:HasModelo "RB001 Rowing"^^xsd:string ;
   ns0:HasFabricante "Parkesa"^^xsd:string ;
   schema:address "P. Las Indias"^^xsd:string ;
   ns0:HasEnlace " "^^xsd:anyURI ;
@@ -1102,17 +1224,19 @@
   geo:lat "28.4679099546"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/122>
-  ns0:HasFID "122.0"^^xsd:int ;
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasModelo "RB003 Bicycle"^^xsd:string ;
   ns0:HasFabricante "Parkesa"^^xsd:string ;
-  schema:address "P. Las Indias"^^xsd:string ;
   ns0:HasEnlace " "^^xsd:anyURI ;
   geo:long "-16.2717366647"^^xsd:int ;
+  schema:address "P. Las Indias"^^xsd:string ;
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "122.0"^^xsd:int ;
   geo:lat "28.4678777028"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/123>
-  ns0:HasFID "123.0"^^xsd:int ;
+  ns0:HasModelo "Barra Dominadas"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "123.0"^^xsd:int ;
   ns0:HasFabricante " "^^xsd:string ;
   schema:address "Río Guadalete"^^xsd:string ;
   ns0:HasEnlace " "^^xsd:anyURI ;
@@ -1120,6 +1244,7 @@
   geo:lat "28.4737160823"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/124>
+  ns0:HasModelo "154B Esquí de Fondo"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "124.0"^^xsd:int ;
@@ -1129,8 +1254,9 @@
   geo:lat "28.4564705042"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/125>
-  ns0:HasFID "125.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "125.0"^^xsd:int ;
+  ns0:HasModelo "154C Slalom"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "P. Cuchillitos de Tristán"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154C.pdf"^^xsd:anyURI ;
@@ -1138,17 +1264,19 @@
   geo:lat "28.4563963336"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/126>
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "126.0"^^xsd:int ;
+  ns0:HasModelo "159J Espaldera"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
-  geo:lat "28.4563673266"^^xsd:int ;
   schema:address "P. Cuchillitos de Tristán"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/159J.pdf"^^xsd:anyURI ;
   geo:long "-16.2769465712"^^xsd:int ;
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
-  ns0:HasFID "126.0"^^xsd:int .
+  geo:lat "28.4563673266"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/127>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "127.0"^^xsd:int ;
+  ns0:HasModelo "155H El Jinete"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "P. Cuchillitos de Tristán"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155H.pdf"^^xsd:anyURI ;
@@ -1158,6 +1286,7 @@
 <http://www.santacruzdetenerife.es/128>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "128.0"^^xsd:int ;
+  ns0:HasModelo "154D Sube y Baja"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "P. Cuchillitos de Tristán"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154D.pdf"^^xsd:anyURI ;
@@ -1167,6 +1296,7 @@
 <http://www.santacruzdetenerife.es/129>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "129.0"^^xsd:int ;
+  ns0:HasModelo "154D Sube y Baja"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Maestro Borguño"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154D.pdf"^^xsd:anyURI ;
@@ -1176,6 +1306,7 @@
 <http://www.santacruzdetenerife.es/130>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "130.0"^^xsd:int ;
+  ns0:HasModelo "155I El Remo"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Maestro Borguño"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf"^^xsd:anyURI ;
@@ -1183,17 +1314,19 @@
   geo:lat "28.4505321205"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/131>
-  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf"^^xsd:anyURI ;
-  geo:long "-16.273453526"^^xsd:int ;
-  geo:lat "28.4575303016"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "131.0"^^xsd:int ;
+  ns0:HasModelo "202T Bicicleta Estática"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
-  schema:address "Juan de Mattos y Azofra"^^xsd:string .
+  schema:address "Juan de Mattos y Azofra"^^xsd:string ;
+  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/202T.pdf"^^xsd:anyURI ;
+  geo:long "-16.273453526"^^xsd:int ;
+  geo:lat "28.4575303016"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/132>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "132.0"^^xsd:int ;
+  ns0:HasModelo "154B Esquí de Fondo"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Juan de Mattos y Azofra"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf"^^xsd:anyURI ;
@@ -1201,27 +1334,30 @@
   geo:lat "28.4575144826"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/133>
-  ns0:HasFID "133.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
+  ns0:HasModelo "154G Rueda Grande"^^xsd:string ;
+  ns0:HasFID "133.0"^^xsd:int ;
   schema:address "Camino Los Tarajales"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf"^^xsd:anyURI ;
   geo:long "-16.2194112266"^^xsd:int ;
   geo:lat "28.5617942125"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/134>
+  ns0:HasFabricante "TUYO HPC"^^xsd:string ;
+  ns0:HasModelo "154G Rueda Grande"^^xsd:string ;
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "134.0"^^xsd:int ;
   schema:address "Pza. Chamorga"^^xsd:string ;
-  ns0:HasFabricante "TUYO HPC"^^xsd:string ;
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf"^^xsd:anyURI ;
   geo:long "-16.1593098312"^^xsd:int ;
   geo:lat "28.5686785008"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/135>
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "135.0"^^xsd:int ;
+  ns0:HasModelo "154G Rueda Grande"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   schema:address "Pza. Taborno"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf"^^xsd:anyURI ;
   geo:long "-16.264521244"^^xsd:int ;
@@ -1230,6 +1366,7 @@
 <http://www.santacruzdetenerife.es/136>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "136.0"^^xsd:int ;
+  ns0:HasModelo "154G Rueda Grande"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Ctra. Igueste San Andrés"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154G.pdf"^^xsd:anyURI ;
@@ -1237,19 +1374,21 @@
   geo:lat "28.5289900668"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/137>
+  ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "137.0"^^xsd:int ;
-  ns0:HasFabricante "TUYO HPC"^^xsd:string ;
+  ns0:HasModelo "154B Esquí de Fondo"^^xsd:string ;
   schema:address "Pza. San Pedro"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/154B.pdf"^^xsd:anyURI ;
   geo:long "-16.1540306769"^^xsd:int ;
   geo:lat "28.525727032"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/138>
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
-  ns0:HasFID "138.0"^^xsd:int ;
+  ns0:HasModelo "RB001 Rowing"^^xsd:string ;
   ns0:HasFabricante "Parkesa"^^xsd:string ;
   schema:address "Punta de Anaga"^^xsd:string ;
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "138.0"^^xsd:int ;
   ns0:HasEnlace " "^^xsd:anyURI ;
   geo:long "-16.3109869635"^^xsd:int ;
   geo:lat "28.4257620379"^^xsd:int .
@@ -1257,6 +1396,7 @@
 <http://www.santacruzdetenerife.es/139>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "139.0"^^xsd:int ;
+  ns0:HasModelo "PF9 Oblic"^^xsd:string ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
   schema:address "Pza. Miguel Díaz"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf"^^xsd:anyURI ;
@@ -1264,35 +1404,39 @@
   geo:lat "28.5121808042"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/140>
-  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf"^^xsd:anyURI ;
-  ns0:HasFabricante "Novatilu"^^xsd:string ;
-  schema:address "Pza. Miguel Díaz"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "140.0"^^xsd:int ;
+  ns0:HasModelo "PF6 Step"^^xsd:string ;
+  ns0:HasFabricante "Novatilu"^^xsd:string ;
+  schema:address "Pza. Miguel Díaz"^^xsd:string ;
+  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf"^^xsd:anyURI ;
   geo:long "-16.1888064218"^^xsd:int ;
   geo:lat "28.5121775747"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/141>
-  ns0:HasFabricante "Novatilu"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "141.0"^^xsd:int ;
+  ns0:HasModelo "PF26 Pulse"^^xsd:string ;
+  ns0:HasFabricante "Novatilu"^^xsd:string ;
   schema:address "Pza. Miguel Díaz"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF26.pdf"^^xsd:anyURI ;
   geo:long "-16.188774091"^^xsd:int ;
   geo:lat "28.512155548"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/142>
-  schema:address "Pza. Taborno"^^xsd:string ;
-  ns0:HasFID "142.0"^^xsd:int ;
-  ns0:HasFabricante "Novatilu"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "142.0"^^xsd:int ;
+  ns0:HasModelo "PF6 Step"^^xsd:string ;
+  ns0:HasFabricante "Novatilu"^^xsd:string ;
+  schema:address "Pza. Taborno"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf"^^xsd:anyURI ;
   geo:long "-16.2645211894"^^xsd:int ;
   geo:lat "28.5571301851"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/143>
-  ns0:HasFID "143.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "143.0"^^xsd:int ;
+  ns0:HasModelo "PF9 Oblic"^^xsd:string ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
   schema:address "Pza. San José"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf"^^xsd:anyURI ;
@@ -1300,8 +1444,9 @@
   geo:lat "28.4250696553"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/144>
-  ns0:HasFID "144.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "144.0"^^xsd:int ;
+  ns0:HasModelo "PF8 Row"^^xsd:string ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
   schema:address "Frangollo"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf"^^xsd:anyURI ;
@@ -1311,6 +1456,7 @@
 <http://www.santacruzdetenerife.es/145>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "145.0"^^xsd:int ;
+  ns0:HasModelo "PF1 HIP"^^xsd:string ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
   schema:address "Frangollo"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf"^^xsd:anyURI ;
@@ -1320,6 +1466,7 @@
 <http://www.santacruzdetenerife.es/146>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "146.0"^^xsd:int ;
+  ns0:HasModelo "PF13 Bike"^^xsd:string ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
   schema:address "Pza. El Rosarito"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF13.pdf"^^xsd:anyURI ;
@@ -1327,17 +1474,19 @@
   geo:lat "28.4405475838"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/147>
-  ns0:HasFID "147.0"^^xsd:int ;
-  ns0:HasFabricante "Novatilu"^^xsd:string ;
-  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf"^^xsd:anyURI ;
-  schema:address "Pza. El Rosarito"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "147.0"^^xsd:int ;
+  ns0:HasModelo "PF1 HIP"^^xsd:string ;
+  ns0:HasFabricante "Novatilu"^^xsd:string ;
+  schema:address "Pza. El Rosarito"^^xsd:string ;
+  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf"^^xsd:anyURI ;
   geo:long "-16.3015183998"^^xsd:int ;
   geo:lat "28.4405297419"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/148>
-  ns0:HasFID "148.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "148.0"^^xsd:int ;
+  ns0:HasModelo "PF9 Oblic"^^xsd:string ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
   schema:address "Rambla Añaza"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf"^^xsd:anyURI ;
@@ -1347,6 +1496,7 @@
 <http://www.santacruzdetenerife.es/149>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "149.0"^^xsd:int ;
+  ns0:HasModelo "PF1 HIP"^^xsd:string ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
   schema:address "Rambla Añaza"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf"^^xsd:anyURI ;
@@ -1356,6 +1506,7 @@
 <http://www.santacruzdetenerife.es/150>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "150.0"^^xsd:int ;
+  ns0:HasModelo "PF3 Torax"^^xsd:string ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
   schema:address "Chirama"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF3.pdf"^^xsd:anyURI ;
@@ -1365,6 +1516,7 @@
 <http://www.santacruzdetenerife.es/151>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "151.0"^^xsd:int ;
+  ns0:HasModelo "PF8 Row"^^xsd:string ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
   schema:address "Chirama"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf"^^xsd:anyURI ;
@@ -1374,6 +1526,7 @@
 <http://www.santacruzdetenerife.es/152>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "152.0"^^xsd:int ;
+  ns0:HasModelo "PF9 Oblic"^^xsd:string ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
   schema:address "Los Estudiantes"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf"^^xsd:anyURI ;
@@ -1381,9 +1534,10 @@
   geo:lat "28.4451764427"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/153>
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
-  ns0:HasFID "153.0"^^xsd:int ;
+  ns0:HasModelo "JSA006 Climber"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
+  ns0:HasFID "153.0"^^xsd:int ;
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   schema:address "Panamá"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf"^^xsd:anyURI ;
   geo:long "-16.2664590432"^^xsd:int ;
@@ -1392,6 +1546,7 @@
 <http://www.santacruzdetenerife.es/154>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "154.0"^^xsd:int ;
+  ns0:HasModelo "JSA008 Remo"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Panamá"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA008.pdf"^^xsd:anyURI ;
@@ -1401,6 +1556,7 @@
 <http://www.santacruzdetenerife.es/155>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "155.0"^^xsd:int ;
+  ns0:HasModelo "JSA018 Bicicleta"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Panamá"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf"^^xsd:anyURI ;
@@ -1408,17 +1564,19 @@
   geo:lat "28.4554643111"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/156>
-  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
-  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf"^^xsd:anyURI ;
-  schema:address "Pza. Beneharo"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "156.0"^^xsd:int ;
+  ns0:HasModelo "JSA003 Silla Pectorales"^^xsd:string ;
+  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
+  schema:address "Pza. Beneharo"^^xsd:string ;
+  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf"^^xsd:anyURI ;
   geo:long "-16.2834347847"^^xsd:int ;
   geo:lat "28.4512798892"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/157>
-  ns0:HasFID "157.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "157.0"^^xsd:int ;
+  ns0:HasModelo "JSA006 Climber"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Pza. Beneharo"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf"^^xsd:anyURI ;
@@ -1428,6 +1586,7 @@
 <http://www.santacruzdetenerife.es/158>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "158.0"^^xsd:int ;
+  ns0:HasModelo "PF8 Row"^^xsd:string ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
   schema:address "Ctra. Los Campitos"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf"^^xsd:anyURI ;
@@ -1435,8 +1594,9 @@
   geo:lat "28.4862264274"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/159>
-  ns0:HasFID "159.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "159.0"^^xsd:int ;
+  ns0:HasModelo "155I El Remo"^^xsd:string ;
   ns0:HasFabricante "TUYO HPC"^^xsd:string ;
   schema:address "Ctra. Los Campitos"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/155I.pdf"^^xsd:anyURI ;
@@ -1446,6 +1606,7 @@
 <http://www.santacruzdetenerife.es/160>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "160.0"^^xsd:int ;
+  ns0:HasModelo "PF13 Bike"^^xsd:string ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
   schema:address "Tadorna"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF13.pdf"^^xsd:anyURI ;
@@ -1453,17 +1614,19 @@
   geo:lat "28.4370487071"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/161>
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf"^^xsd:anyURI ;
   ns0:HasFID "161.0"^^xsd:int ;
+  ns0:HasModelo "PF9 Oblic"^^xsd:string ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
   schema:address "Tadorna"^^xsd:string ;
-  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF9.pdf"^^xsd:anyURI ;
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   geo:long "-16.3081349677"^^xsd:int ;
   geo:lat "28.4369908923"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/162>
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "162.0"^^xsd:int ;
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasModelo "JSA 003 Pectorales adap"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Tadorna"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003D.pdf"^^xsd:anyURI ;
@@ -1471,8 +1634,9 @@
   geo:lat "28.4370721469"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/163>
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "163.0"^^xsd:int ;
+  ns0:HasModelo "JSA 019 Manivelas adap"^^xsd:string ;
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Rambla Añaza"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA019D.pdf"^^xsd:anyURI ;
@@ -1480,53 +1644,59 @@
   geo:lat "28.4265817859"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/164>
-  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf"^^xsd:anyURI ;
+  geo:lat "28.426266099"^^xsd:int ;
+  geo:long "-16.2985556986"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "164.0"^^xsd:int ;
-  schema:address "Rambla Añaza"^^xsd:string ;
+  ns0:HasModelo "JSA 018 Bicicleta adap"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
-  geo:long "-16.2985556986"^^xsd:int ;
-  geo:lat "28.426266099"^^xsd:int .
+  schema:address "Rambla Añaza"^^xsd:string ;
+  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf"^^xsd:anyURI .
 
 <http://www.santacruzdetenerife.es/165>
-  ns0:HasFID "165.0"^^xsd:int ;
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
-  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
-  schema:address "Rambla Añaza"^^xsd:string ;
-  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009D.pdf"^^xsd:anyURI ;
   geo:long "-16.2992206823"^^xsd:int ;
+  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009D.pdf"^^xsd:anyURI ;
+  schema:address "Rambla Añaza"^^xsd:string ;
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "165.0"^^xsd:int ;
+  ns0:HasModelo "JSA 009 Timón adap"^^xsd:string ;
+  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   geo:lat "28.4248605916"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/166>
-  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf"^^xsd:anyURI ;
-  schema:address "Avda. Los Majuelos"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
+  schema:address "Avda. Los Majuelos"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "166.0"^^xsd:int ;
+  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf"^^xsd:anyURI ;
+  ns0:HasModelo "JSA 018 Bicicleta adap"^^xsd:string ;
   geo:long "-16.312057589"^^xsd:int ;
   geo:lat "28.4430319916"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/167>
-  ns0:HasFID "167.0"^^xsd:int ;
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
-  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Avda. Los Majuelos"^^xsd:string ;
+  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
+  ns0:HasFID "167.0"^^xsd:int ;
+  ns0:HasModelo "JSA 019 Manivelas adap"^^xsd:string ;
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA019D.pdf"^^xsd:anyURI ;
   geo:long "-16.3136934724"^^xsd:int ;
   geo:lat "28.442064762"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/168>
-  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "168.0"^^xsd:int ;
+  ns0:HasModelo "JSA 003 Pectorales adap"^^xsd:string ;
+  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Avda. Los Majuelos"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003D.pdf"^^xsd:anyURI ;
   geo:long "-16.3125954237"^^xsd:int ;
   geo:lat "28.442715014"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/169>
-  ns0:HasFID "169.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "169.0"^^xsd:int ;
+  ns0:HasModelo "PF13 Bike"^^xsd:string ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
   schema:address "Pza. Nuestra Sra. de la Merced"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF13.pdf"^^xsd:anyURI ;
@@ -1534,17 +1704,19 @@
   geo:lat "28.435534244"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/170>
-  ns0:HasFID "170.0"^^xsd:int ;
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
-  ns0:HasFabricante "Novatilu"^^xsd:string ;
+  ns0:HasModelo "PF3 Torax"^^xsd:string ;
   schema:address "Pza. Nuestra Sra. de la Merced"^^xsd:string ;
+  ns0:HasFabricante "Novatilu"^^xsd:string ;
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "170.0"^^xsd:int ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF3.pdf"^^xsd:anyURI ;
   geo:long "-16.3053852873"^^xsd:int ;
   geo:lat "28.4355592435"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/171>
-  ns0:HasFID "171.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "171.0"^^xsd:int ;
+  ns0:HasModelo "PF3 Torax"^^xsd:string ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
   schema:address "Agana"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF3.pdf"^^xsd:anyURI ;
@@ -1552,8 +1724,9 @@
   geo:lat "28.4250143697"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/172>
-  ns0:HasFID "172.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "172.0"^^xsd:int ;
+  ns0:HasModelo "PF6 Step"^^xsd:string ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
   schema:address "Agana"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf"^^xsd:anyURI ;
@@ -1561,25 +1734,28 @@
   geo:lat "28.4250400055"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/173>
-  ns0:HasFID "173.0"^^xsd:int ;
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasModelo "PF1 HIP"^^xsd:string ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
+  geo:lat "28.4659314186"^^xsd:int ;
   schema:address "Eladio Roca y Salazar"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf"^^xsd:anyURI ;
   geo:long "-16.275629002"^^xsd:int ;
-  geo:lat "28.4659314186"^^xsd:int .
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "173.0"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/174>
-  ns0:HasFabricante "Novatilu"^^xsd:string ;
-  schema:address "Eladio Roca y Salazar"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "174.0"^^xsd:int ;
+  ns0:HasModelo "PF3 Torax"^^xsd:string ;
+  ns0:HasFabricante "Novatilu"^^xsd:string ;
+  schema:address "Eladio Roca y Salazar"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF3.pdf"^^xsd:anyURI ;
   geo:long "-16.2756514539"^^xsd:int ;
   geo:lat "28.4659070898"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/175>
   ns0:HasFID "175.0"^^xsd:int ;
+  ns0:HasModelo "PF13 Bike"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
   schema:address "Eladio Roca y Salazar"^^xsd:string ;
@@ -1588,8 +1764,9 @@
   geo:lat "28.4659358578"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/176>
-  ns0:HasFID "176.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "176.0"^^xsd:int ;
+  ns0:HasModelo "PF8 Row"^^xsd:string ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
   schema:address "Eladio Roca y Salazar"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf"^^xsd:anyURI ;
@@ -1597,62 +1774,69 @@
   geo:lat "28.465909143"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/177>
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "177.0"^^xsd:int ;
-  ns0:HasFabricante "Novatilu"^^xsd:string ;
+  ns0:HasModelo "PF4 Up"^^xsd:string ;
   schema:address "Eladio Roca y Salazar"^^xsd:string ;
+  ns0:HasFabricante "Novatilu"^^xsd:string ;
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF4.pdf"^^xsd:anyURI ;
   geo:long "-16.2757082392"^^xsd:int ;
   geo:lat "28.4659387149"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/178>
+  geo:lat "28.4573017586"^^xsd:int ;
+  geo:long "-16.2655828101"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "178.0"^^xsd:int ;
+  ns0:HasModelo "PF6 Step"^^xsd:string ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
   schema:address "Pza. Manuel Castañeda"^^xsd:string ;
-  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf"^^xsd:anyURI ;
-  geo:long "-16.2655828101"^^xsd:int ;
-  geo:lat "28.4573017586"^^xsd:int .
+  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF6.pdf"^^xsd:anyURI .
 
 <http://www.santacruzdetenerife.es/179>
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
-  ns0:HasFID "179.0"^^xsd:int ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
   schema:address "Pza. Manuel Castañeda"^^xsd:string ;
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "179.0"^^xsd:int ;
+  ns0:HasModelo "PF8 Row"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF8.pdf"^^xsd:anyURI ;
   geo:long "-16.2656081733"^^xsd:int ;
   geo:lat "28.457311773"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/180>
+  ns0:HasModelo "PF1 HIP"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
-  ns0:HasFID "180.0"^^xsd:int ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
+  ns0:HasFID "180.0"^^xsd:int ;
   schema:address "Pza. Manuel Castañeda"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF1.pdf"^^xsd:anyURI ;
   geo:long "-16.2656335366"^^xsd:int ;
   geo:lat "28.4573217873"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/181>
-  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF01.pdf"^^xsd:anyURI ;
+  ns0:HasFabricante "Novatilu"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "181.0"^^xsd:int ;
-  ns0:HasFabricante "Novatilu"^^xsd:string ;
+  ns0:HasModelo "PF10 Pull"^^xsd:string ;
   schema:address "Pza. Manuel Castañeda"^^xsd:string ;
+  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF01.pdf"^^xsd:anyURI ;
   geo:long "-16.2656688887"^^xsd:int ;
   geo:lat "28.4573112081"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/182>
-  schema:address "Pza. Manuel Castañeda"^^xsd:string ;
-  ns0:HasFID "182.0"^^xsd:int ;
-  ns0:HasFabricante "Novatilu"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "182.0"^^xsd:int ;
+  ns0:HasModelo "PF4 Up"^^xsd:string ;
+  ns0:HasFabricante "Novatilu"^^xsd:string ;
+  schema:address "Pza. Manuel Castañeda"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF4.pdf"^^xsd:anyURI ;
   geo:long "-16.2656898069"^^xsd:int ;
   geo:lat "28.4572917188"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/183>
-  ns0:HasFID "183.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "183.0"^^xsd:int ;
+  ns0:HasModelo "PF26 Pulse"^^xsd:string ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
   schema:address "Pza. Manuel Castañeda"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF26.pdf"^^xsd:anyURI ;
@@ -1660,8 +1844,9 @@
   geo:lat "28.4572759231"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/184>
-  ns0:HasFID "184.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "184.0"^^xsd:int ;
+  ns0:HasModelo "PF26 Pulse"^^xsd:string ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
   schema:address "Eladio Roca y Salazar"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF26.pdf"^^xsd:anyURI ;
@@ -1669,8 +1854,9 @@
   geo:lat "28.4659118124"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/185>
-  ns0:HasFID "185.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "185.0"^^xsd:int ;
+  ns0:HasModelo "PF31 Barras Paralelas"^^xsd:string ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
   schema:address "Avda. Nuestra Sra. del Carmen"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF31.pdf"^^xsd:anyURI ;
@@ -1678,80 +1864,89 @@
   geo:lat "28.4894463719"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/186>
-  schema:address "Avda. Nuestra Sra. del Carmen"^^xsd:string ;
-  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF26.pdf"^^xsd:anyURI ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "186.0"^^xsd:int ;
+  ns0:HasModelo "PF26 Pulse"^^xsd:string ;
   ns0:HasFabricante "Novatilu"^^xsd:string ;
+  schema:address "Avda. Nuestra Sra. del Carmen"^^xsd:string ;
+  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/PF26.pdf"^^xsd:anyURI ;
   geo:long "-16.2384894571"^^xsd:int ;
   geo:lat "28.4894255395"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/187>
   ns0:HasFID "187.0"^^xsd:int ;
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
-  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Avda. Francisco La Roche"^^xsd:string ;
+  ns0:HasModelo "JSA018 Bicicleta adaptada"^^xsd:string ;
+  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf"^^xsd:anyURI ;
   geo:long "-16.2454419812"^^xsd:int ;
   geo:lat "28.4767234768"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/188>
-  ns0:HasFID "188.0"^^xsd:int ;
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Avda. Francisco La Roche"^^xsd:string ;
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "188.0"^^xsd:int ;
+  ns0:HasModelo "JSA003 Silla Pectorales"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf"^^xsd:anyURI ;
   geo:long "-16.2459110546"^^xsd:int ;
   geo:lat "28.4761767641"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/189>
-  ns0:HasFID "189.0"^^xsd:int ;
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
-  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Avda. Francisco La Roche"^^xsd:string ;
+  ns0:HasModelo "JSA019 Bíceps"^^xsd:string ;
+  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "189.0"^^xsd:int ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA019D.pdf"^^xsd:anyURI ;
   geo:long "-16.2460645553"^^xsd:int ;
   geo:lat "28.4759527476"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/190>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
-  ns0:HasFID "190.0"^^xsd:int ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
+  ns0:HasFID "190.0"^^xsd:int ;
+  ns0:HasModelo "JSA006 Climber"^^xsd:string ;
   schema:address "Hermanos Maffiotte"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf"^^xsd:anyURI ;
   geo:long "-16.2758495879"^^xsd:int ;
   geo:lat "28.4547404121"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/191>
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
-  ns0:HasFID "191.0"^^xsd:int ;
-  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Hermanos Maffiotte"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf"^^xsd:anyURI ;
+  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "191.0"^^xsd:int ;
+  ns0:HasModelo "JSA003 Silla Pectorales"^^xsd:string ;
   geo:long "-16.2758056812"^^xsd:int ;
   geo:lat "28.4547296634"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/192>
+  ns0:HasModelo "JSA001 Waist"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
-  ns0:HasFID "192.0"^^xsd:int ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
+  ns0:HasFID "192.0"^^xsd:int ;
   schema:address "Hermanos Maffiotte"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA001.pdf"^^xsd:anyURI ;
   geo:long "-16.2758263685"^^xsd:int ;
   geo:lat "28.4546997082"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/193>
-  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
-  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf"^^xsd:anyURI ;
   ns0:HasFID "193.0"^^xsd:int ;
+  ns0:HasModelo "JSA003 Silla Pectorales"^^xsd:string ;
+  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Magec"^^xsd:string ;
+  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf"^^xsd:anyURI ;
   geo:long "-16.2818178863"^^xsd:int ;
   geo:lat "28.4488222593"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/194>
   ns0:HasFID "194.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasModelo "JSA006 Climber"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Magec"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf"^^xsd:anyURI ;
@@ -1761,6 +1956,7 @@
 <http://www.santacruzdetenerife.es/195>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "195.0"^^xsd:int ;
+  ns0:HasModelo "JSA001 Waist"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Magec"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA001.pdf"^^xsd:anyURI ;
@@ -1768,37 +1964,41 @@
   geo:lat "28.4488216578"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/196>
-  ns0:HasFID "196.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
-  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Pza. Cheo"^^xsd:string ;
+  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
+  ns0:HasModelo "JSA006 Climber"^^xsd:string ;
+  ns0:HasFID "196.0"^^xsd:int ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf"^^xsd:anyURI ;
   geo:long "-16.2796915286"^^xsd:int ;
   geo:lat "28.4527215859"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/197>
+  schema:address "Pza. Cheo"^^xsd:string ;
+  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
+  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf"^^xsd:anyURI ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "197.0"^^xsd:int ;
-  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
-  schema:address "Pza. Cheo"^^xsd:string ;
-  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA003.pdf"^^xsd:anyURI ;
+  ns0:HasModelo "JSA003 Silla Pectorales"^^xsd:string ;
   geo:long "-16.2797435338"^^xsd:int ;
   geo:lat "28.4527316784"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/198>
+  schema:address "Pza. Cheo"^^xsd:string ;
+  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
+  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA001.pdf"^^xsd:anyURI ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "198.0"^^xsd:int ;
-  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
-  schema:address "Pza. Cheo"^^xsd:string ;
-  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA001.pdf"^^xsd:anyURI ;
+  ns0:HasModelo "JSA001 Waist"^^xsd:string ;
   geo:long "-16.2798666679"^^xsd:int ;
   geo:lat "28.4525171212"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/199>
-  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
-  ns0:HasFID "199.0"^^xsd:int ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "San Juan de la Rambla"^^xsd:string ;
+  a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "199.0"^^xsd:int ;
+  ns0:HasModelo "JCIR06  Barras Paralelas"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR06.pdf"^^xsd:anyURI ;
   geo:long "-16.2764271064"^^xsd:int ;
   geo:lat "28.4698980431"^^xsd:int .
@@ -1806,6 +2006,7 @@
 <http://www.santacruzdetenerife.es/200>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "200.0"^^xsd:int ;
+  ns0:HasModelo "JSA006 Climber"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Pza. La Victoria"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf"^^xsd:anyURI ;
@@ -1813,35 +2014,39 @@
   geo:lat "28.4589563778"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/201>
-  schema:address "Pza. Concha Castro"^^xsd:string ;
-  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf"^^xsd:anyURI ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "201.0"^^xsd:int ;
+  ns0:HasModelo "JSA018 Bicicleta"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
+  schema:address "Pza. Concha Castro"^^xsd:string ;
+  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf"^^xsd:anyURI ;
   geo:long "-16.2776529312"^^xsd:int ;
   geo:lat "28.4738839328"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/202>
-  schema:address "Pza. Concha Castro"^^xsd:string ;
+  geo:lat "28.4739087738"^^xsd:int ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf"^^xsd:anyURI ;
-  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
+  geo:long "-16.2776371263"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "202.0"^^xsd:int ;
-  geo:long "-16.2776371263"^^xsd:int ;
-  geo:lat "28.4739087738"^^xsd:int .
+  ns0:HasModelo "JSA018 Bicicleta adaptada"^^xsd:string ;
+  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
+  schema:address "Pza. Concha Castro"^^xsd:string .
 
 <http://www.santacruzdetenerife.es/203>
-  schema:address "Pza. Concha Castro"^^xsd:string ;
-  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
-  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA005.pdf"^^xsd:anyURI ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "203.0"^^xsd:int ;
+  ns0:HasModelo "JSA005 Rueda"^^xsd:string ;
+  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
+  schema:address "Pza. Concha Castro"^^xsd:string ;
+  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA005.pdf"^^xsd:anyURI ;
   geo:long "-16.2776104845"^^xsd:int ;
   geo:lat "28.4738989797"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/204>
-  ns0:HasFID "204.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "204.0"^^xsd:int ;
+  ns0:HasModelo "JSA009 Timón"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Pza. Concha Castro"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009.pdf"^^xsd:anyURI ;
@@ -1849,8 +2054,9 @@
   geo:lat "28.4738699719"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/205>
-  ns0:HasFID "205.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
+  ns0:HasFID "205.0"^^xsd:int ;
+  ns0:HasModelo "JCIR07 Pulse"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "San Juan de la Rambla"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf"^^xsd:anyURI ;
@@ -1860,6 +2066,7 @@
 <http://www.santacruzdetenerife.es/206>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "206.0"^^xsd:int ;
+  ns0:HasModelo "JCIR07 Pulse"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Pza. Francisco Hernández Barroso"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf"^^xsd:anyURI ;
@@ -1869,6 +2076,7 @@
 <http://www.santacruzdetenerife.es/207>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "207.0"^^xsd:int ;
+  ns0:HasModelo "JSA004 Barras"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Pza. Francisco Hernández Barroso"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA004.pdf"^^xsd:anyURI ;
@@ -1878,6 +2086,7 @@
 <http://www.santacruzdetenerife.es/208>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "208.0"^^xsd:int ;
+  ns0:HasModelo "JCIR07 Pulse"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "P. Secundino Delgado"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf"^^xsd:anyURI ;
@@ -1887,6 +2096,7 @@
 <http://www.santacruzdetenerife.es/209>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "209.0"^^xsd:int ;
+  ns0:HasModelo "JSA004 Barras"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "P. Secundino Delgado"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA004.pdf"^^xsd:anyURI ;
@@ -1896,6 +2106,7 @@
 <http://www.santacruzdetenerife.es/210>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "210.0"^^xsd:int ;
+  ns0:HasModelo "JSA018 Bicicleta"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Pza. Anaga"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf"^^xsd:anyURI ;
@@ -1903,17 +2114,19 @@
   geo:lat "28.4803852145"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/211>
+  schema:address "Pza. Anaga"^^xsd:string ;
+  ns0:HasModelo "JSA008 Remo"^^xsd:string ;
+  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
+  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA008.pdf"^^xsd:anyURI ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "211.0"^^xsd:int ;
-  ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
-  schema:address "Pza. Anaga"^^xsd:string ;
-  ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA008.pdf"^^xsd:anyURI ;
   geo:long "-16.2443601838"^^xsd:int ;
   geo:lat "28.480383926"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/212>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "212.0"^^xsd:int ;
+  ns0:HasModelo "JSA001 Cintura"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Pza. Anaga"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA001.pdf"^^xsd:anyURI ;
@@ -1923,6 +2136,7 @@
 <http://www.santacruzdetenerife.es/213>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "213.0"^^xsd:int ;
+  ns0:HasModelo "JSA009 Timón"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Avda. Reyes Católicos"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009.pdf"^^xsd:anyURI ;
@@ -1930,10 +2144,11 @@
   geo:lat "28.4619941786"^^xsd:int .
 
 <http://www.santacruzdetenerife.es/214>
-  ns0:HasFID "214.0"^^xsd:int ;
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
-  schema:address "Avda. Reyes Católicos"^^xsd:string ;
+  ns0:HasFID "214.0"^^xsd:int ;
+  ns0:HasModelo "JSA018 Bicicleta adaptada"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
+  schema:address "Avda. Reyes Católicos"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018D.pdf"^^xsd:anyURI ;
   geo:long "-16.2636143042"^^xsd:int ;
   geo:lat "28.4611101947"^^xsd:int .
@@ -1941,6 +2156,7 @@
 <http://www.santacruzdetenerife.es/215>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "215.0"^^xsd:int ;
+  ns0:HasModelo "JSA019 Bíceps"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Avda. Reyes Católicos"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA019D.pdf"^^xsd:anyURI ;
@@ -1950,6 +2166,7 @@
 <http://www.santacruzdetenerife.es/216>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "216.0"^^xsd:int ;
+  ns0:HasModelo "JCIR07 Pulse"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Ctra. El Bailadero"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf"^^xsd:anyURI ;
@@ -1959,6 +2176,7 @@
 <http://www.santacruzdetenerife.es/217>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "217.0"^^xsd:int ;
+  ns0:HasModelo "JSA006 Climber"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Ctra. El Bailadero"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf"^^xsd:anyURI ;
@@ -1968,6 +2186,7 @@
 <http://www.santacruzdetenerife.es/218>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "218.0"^^xsd:int ;
+  ns0:HasModelo "JCIR07 Pulse"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "San Antonio (Taganana)"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR07.pdf"^^xsd:anyURI ;
@@ -1977,6 +2196,7 @@
 <http://www.santacruzdetenerife.es/219>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "219.0"^^xsd:int ;
+  ns0:HasModelo "JSA006 Climber"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "San Antonio (Taganana)"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA006.pdf"^^xsd:anyURI ;
@@ -1986,6 +2206,7 @@
 <http://www.santacruzdetenerife.es/220>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "220.0"^^xsd:int ;
+  ns0:HasModelo "JSA009 Timón"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Andrómeda"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA009.pdf"^^xsd:anyURI ;
@@ -1995,6 +2216,7 @@
 <http://www.santacruzdetenerife.es/221>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "221.0"^^xsd:int ;
+  ns0:HasModelo "JSA018 Bicicleta"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Andrómeda"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JSA018.pdf"^^xsd:anyURI ;
@@ -2004,6 +2226,7 @@
 <http://www.santacruzdetenerife.es/222>
   a <https://www.santacruzdetenerife.es/Clases/MaquinaPublica> ;
   ns0:HasFID "222.0"^^xsd:int ;
+  ns0:HasModelo "JCIR03 Espaldera"^^xsd:string ;
   ns0:HasFabricante "Fundiciones Benito"^^xsd:string ;
   schema:address "Avda. Nuestra Sra. del Carmen"^^xsd:string ;
   ns0:HasEnlace "https://www.santacruzdetenerife.es/fileadmin/biosaludables/JCIR03.pdf"^^xsd:anyURI ;
