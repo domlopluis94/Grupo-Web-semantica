@@ -185,6 +185,7 @@ public class FuncionesAndroid
 		
 		// Propiedades a buscar (HasModelo)
 		Property modelos = modelo.getProperty("https://www.santacruzdetenerife.es/Propiedades/HasModelo");
+		Property enlaces = modelo.getProperty("https://www.santacruzdetenerife.es/Propiedades/HasEnlace");
 		
 		// Recorro los recursos en busca del modelo requerido
 		ResIterator iteradorR = modelo.listResourcesWithProperty(modelos);
@@ -200,8 +201,13 @@ public class FuncionesAndroid
 				nodo = iteradorN.next();
 				elemento = nodo.toString().split("\\^", 2);
 				if(elemento[0].equals(Nmaquina)){
-					uris.add(recurso.toString());
-					//System.out.println(recurso.toString());
+					iteradorN = modelo.listObjectsOfProperty(recurso, enlaces);
+					while(iteradorN.hasNext()) {
+						nodo = iteradorN.next();
+						elemento = nodo.toString().split("\\^", 2);
+						uris.add(elemento[0]);
+						//System.out.println(elemento[0]);
+					}
 				}
 			}
 		}
