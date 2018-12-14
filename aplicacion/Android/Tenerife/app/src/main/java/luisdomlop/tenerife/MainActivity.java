@@ -120,10 +120,13 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         ball.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                String uri;
                 //funcion que llama a la Uri de la maquina
                 ArrayList uriL = UriMaquina(name);
-                String uri =(String) uriL.get(0);
+                uri =(String) uriL.get(0);
+                if(uriL.size() <=  1 ){
+                    uri = "https://www.santacruzdetenerife.es";
+                }
                 //llamada con el browser
                 Intent viewIntent = new Intent("android.intent.action.VIEW", Uri.parse(uri));
                 startActivity(viewIntent);
@@ -218,9 +221,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     }
 
-
-
-
+    //
     @Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
         if (requestCode ==  LOCATION_PERMISION_REQUEST_CODE ) {
@@ -246,19 +247,21 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         }
     }
 
+    //
     private void moveCamara(LatLng lat,float zoom){
         mapita.moveCamera(CameraUpdateFactory.newLatLngZoom(lat,zoom));
     }
 
+    //
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mapita = googleMap;
-        Toast.makeText(MainActivity.this, " pre posconseguida", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(MainActivity.this, " pre posconseguida", Toast.LENGTH_SHORT).show();
         //mlocationPermisiongrant=true;
         // aqui no entra porque no pilla los permisos bien
         if (mlocationPermisiongrant) {
             getDeviceLocation();
-            Toast.makeText(MainActivity.this, "posconseguida", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(MainActivity.this, "posconseguida", Toast.LENGTH_SHORT).show();
             mapita.getUiSettings().setMyLocationButtonEnabled(true);
 
             if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(MainActivity.this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
@@ -439,7 +442,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
     /**
-     * Le paso el nombre de la maquina y me da su URL
+     * Le paso el nombre de la maquina y me da su URI
      * @param Nmaquina
      * @return
      */
@@ -450,6 +453,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         // Propiedades a buscar (HasModelo)
         Property modelos = modelo.getProperty("https://www.santacruzdetenerife.es/Propiedades/HasModelo");
+        Property enlaces = modelo.getProperty("https://www.santacruzdetenerife.es/Propiedades/HasEnlace");
 
         // Recorro los recursos en busca del modelo requerido
         ResIterator iteradorR = modelo.listResourcesWithProperty(modelos);
@@ -465,17 +469,19 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 nodo = iteradorN.next();
                 elemento = nodo.toString().split("\\^", 2);
                 if(elemento[0].equals(Nmaquina)){
-                    uris.add(recurso.toString());
-                    //System.out.println(recurso.toString());
+                    iteradorN = modelo.listObjectsOfProperty(recurso, enlaces);
+                    while(iteradorN.hasNext()) {
+                        nodo = iteradorN.next();
+                        elemento = nodo.toString().split("\\^", 2);
+                        uris.add(elemento[0]);
+                        //System.out.println(elemento[0]);
+                    }
                 }
             }
         }
 
         return uris;
     }
-
-
-
 
 
 }
